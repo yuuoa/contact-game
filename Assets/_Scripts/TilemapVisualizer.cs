@@ -34,6 +34,7 @@ public class TilemapVisualizer : MonoBehaviour
         //ObjectPositionList.Instance.SpawnPlayer();
         ObjectPositionList.Instance.SpawnEnemy();
         ObjectPositionList.Instance.SpawnFinish();
+        ObjectPositionList.Instance.SpawnFlask();
     }
 
     internal void PaintSingleBasicWall(Vector2Int position)

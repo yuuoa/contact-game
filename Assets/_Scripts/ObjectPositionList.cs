@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectPositionList : MonoBehaviour
 {
     public GameObject Square;
+    public GameObject Flask;
     //public GameObject Circle;
     public GameObject Finish;
     private static ObjectPositionList _instance;
@@ -35,9 +36,11 @@ public class ObjectPositionList : MonoBehaviour
     void Update()
     {
         Square = GameObject.Find("Square");
+        Flask = GameObject.Find("Flask");
         //Circle = GameObject.Find("Circle");
         Finish = GameObject.Find("Finish");
         Destroy(Square);
+        Destroy(Flask);
         //Destroy(Circle);
         Destroy(Finish);
     }
@@ -79,6 +82,14 @@ public class ObjectPositionList : MonoBehaviour
         for (int SpawnDistance = 25; SpawnDistance <= tilePositionList.Count; SpawnDistance+= 25)
         {
             Instantiate (Square, tilePositionList[SpawnDistance], Quaternion.identity);
+        }
+    }
+
+        public void SpawnFlask()
+    {
+        for (int SpawnDistance = 50; SpawnDistance <= tilePositionList.Count; SpawnDistance+= 50)
+        {
+            Instantiate (Flask, tilePositionList[SpawnDistance], Quaternion.identity);
         }
     }
 
