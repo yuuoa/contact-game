@@ -6,10 +6,20 @@ using UnityEngine.SceneManagement;
 public class finisher : MonoBehaviour
 {
 
+    public int GameLevel;
+
+    private float health;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        GameLevel = PlayerPrefs.GetInt("GameLevel");
+        Debug.Log("level " + GameLevel);
+        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
+        if (GameLevel == 0)
+        {
+            health = 100f;
+        }
     }
 
     // Update is called once per frame
@@ -25,8 +35,11 @@ public class finisher : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        GameLevel += 1;
+        PlayerPrefs.SetInt("GameLevel", GameLevel);
+        if (collision.CompareTag("Player") || collision.CompareTag("Sword"))
         {
+            
             ResetScene();
         }
     }

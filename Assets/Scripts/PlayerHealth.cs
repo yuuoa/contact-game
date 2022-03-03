@@ -6,25 +6,27 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
 
-    public float Health = 100f;
+    public float Health;
     private float MaxHealth = 100f;
 
     Text info_Heart;
 
+    private int level;
 
     // Start is called before the first frame update
     void Start()
     {
-        Health = MaxHealth;
-        //Health = PlayerPrefs.GetFloat("Health");
-        Debug.Log(Health);
         info_Heart = GameObject.Find("UIHealth").GetComponent<Text>();
+        Health = MaxHealth;
+        Health = PlayerPrefs.GetFloat("Health");
+        Debug.Log(Health);
     }
 
     void Update()
     {
+                level = GameObject.FindGameObjectWithTag("Finish").GetComponent<finisher>().GameLevel;
         info_Heart.text = "Health : " + Health.ToString();
-        //PlayerPrefs.SetFloat("Health", Health);
+        // PlayerPrefs.SetFloat("Health", Health);
     }
 
     // Update is called once per frame
@@ -37,10 +39,11 @@ public class PlayerHealth : MonoBehaviour
         else if (Health <= 0f) 
         {
             Health = 0f;
+            level = 0;
+            PlayerPrefs.SetInt("GameLevel", level);
             Destroy(gameObject);
             finisher.ResetScene();
         }
         Debug.Log("Health = " + Health);
-
     }
 }

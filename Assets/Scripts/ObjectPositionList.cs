@@ -31,7 +31,7 @@ public class ObjectPositionList : MonoBehaviour
 
     void Start()
     {
-
+        // CheckAllPosition();
     }
     void Update()
     {
@@ -57,29 +57,20 @@ public class ObjectPositionList : MonoBehaviour
 
     public Vector3Int GetPosition(int index)
     {
-        Vector3 position = transform.position;
-        position.y += 0.5f;
-        position.x += 0.5f;
-        transform.position = position;
         return tilePositionList[index];
     }
 
-    //public void CheckAllPosition(){
-    //    foreach(Vector3Int item in tilePositionList){
-    //        Debug.Log(item);
-    //    }
+    public void CheckAllPosition(){
+       foreach(Vector3Int item in tilePositionList){
+           Debug.Log(item);
+       }
 
-    //    Debug.Log("Last Pos = " + tilePositionList[tilePositionList.Count - 1]);
-    //}
-
-    //public void SpawnPlayer()
-    //{
-    //    Instantiate(Circle, tilePositionList[0], Quaternion.identity);
-    //}
+       Debug.Log("Last Pos = " + tilePositionList[tilePositionList.Count - 1]);
+    }
 
     public void SpawnEnemy()
     {
-        for (int SpawnDistance = 25; SpawnDistance <= tilePositionList.Count; SpawnDistance+= 25)
+        for (int SpawnDistance = 25; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
         {
             Instantiate (Square, tilePositionList[SpawnDistance], Quaternion.identity);
         }
@@ -87,7 +78,7 @@ public class ObjectPositionList : MonoBehaviour
 
         public void SpawnFlask()
     {
-        for (int SpawnDistance = 50; SpawnDistance <= tilePositionList.Count; SpawnDistance+= 50)
+        for (int SpawnDistance = 55; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 55)
         {
             Instantiate (Flask, tilePositionList[SpawnDistance], Quaternion.identity);
         }
@@ -95,6 +86,6 @@ public class ObjectPositionList : MonoBehaviour
 
     public void SpawnFinish()
     {
-        Instantiate (Finish, tilePositionList[tilePositionList.Count - 1], Quaternion.identity);
+        Instantiate (Finish, tilePositionList[Mathf.Abs(tilePositionList.Count) - 1], Quaternion.identity);
     }
 }

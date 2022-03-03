@@ -11,29 +11,34 @@ public class EnemyMovement : MonoBehaviour
     private float attackDamage = 10f;
     private float attackSpeed = 1f;
     private float canAttack;
+    private float health;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
     }
 
     void Update()
     {
-        float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if(distanceFromPlayer < lineOfSite && player != null)
+        if (player != null)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+            float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+            if(distanceFromPlayer < lineOfSite && player != null)
+            {
+                transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
 
-            Vector3 characterScale = transform.localScale;
-            if (transform.position.x > player.position.x)
-            {
-                characterScale.x = -1;
+                Vector3 characterScale = transform.localScale;
+                if (transform.position.x > player.position.x)
+                {
+                    characterScale.x = -1;
+                }
+                else
+                {
+                    characterScale.x = 1;
+                }
+                transform.localScale = characterScale;
             }
-            else
-            {
-                characterScale.x = 1;
-            }
-            transform.localScale = characterScale;
         }
     }
 
@@ -50,11 +55,11 @@ public class EnemyMovement : MonoBehaviour
             if (attackSpeed <= canAttack)
             {
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                PlayerPrefs.SetFloat("Health", health);
                 canAttack = 0f;
             }
             else
                 canAttack += Time.deltaTime;
         }
-
     }
 }

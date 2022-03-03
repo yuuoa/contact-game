@@ -8,8 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float MoveSpeed;
     public Rigidbody2D rb;
     private Vector2 MoveDirection;
-
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -49,10 +48,4 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(MoveDirection.x * MoveSpeed, MoveDirection.y * MoveSpeed);
     }
-
-    //void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.CompareTag("Finish"))
-    //        finisher.ResetScene();
-    //}
 }
