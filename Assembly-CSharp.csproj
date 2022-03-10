@@ -55,13 +55,11 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\AbstractDungeonGenerator.cs" />
-     <Compile Include="Assets\Scripts\spawner.cs" />
      <Compile Include="Assets\Scripts\ButtonAction.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Scripts\CorridorFirstDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Flask.cs" />
      <Compile Include="Assets\Scripts\Sword.cs" />
-     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\TilemapVisualizer.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
@@ -72,7 +70,12 @@
      <Compile Include="Assets\Scripts\SimpleRandomWalkDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Data\SimpleRandomWalkSO.cs" />
      <Compile Include="Assets\Scripts\finisher.cs" />
+     <None Include="Assets\SimplePixelUI\fonts\Font2\license.txt" />
+     <None Include="Assets\Pixel Font - Tripfive\_README.txt" />
      <None Include="Assets\Sprites\Dungeon\character and tileset\Licence.txt" />
+     <None Include="Assets\SimplePixelUI\fonts\Font1\license.txt" />
+     <None Include="Assets\SimplePixelUI\fonts\Font1\readme.txt" />
+     <None Include="Assets\SimplePixelUI\fonts\Font2\readme.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     private float MaxHealth = 100f;
 
     Text info_Heart;
+    public GameObject GameOverUI;
 
     private int level;
 
@@ -19,12 +20,12 @@ public class PlayerHealth : MonoBehaviour
         info_Heart = GameObject.Find("UIHealth").GetComponent<Text>();
         Health = MaxHealth;
         Health = PlayerPrefs.GetFloat("Health");
-        Debug.Log(Health);
+        // Debug.Log(Health);
     }
 
     void Update()
     {
-                level = GameObject.FindGameObjectWithTag("Finish").GetComponent<finisher>().GameLevel;
+        level = GameObject.FindGameObjectWithTag("Finish").GetComponent<finisher>().GameLevel;
         info_Heart.text = "Health : " + Health.ToString();
         // PlayerPrefs.SetFloat("Health", Health);
     }
@@ -39,11 +40,10 @@ public class PlayerHealth : MonoBehaviour
         else if (Health <= 0f) 
         {
             Health = 0f;
-            level = 0;
-            PlayerPrefs.SetInt("GameLevel", level);
             Destroy(gameObject);
-            finisher.ResetScene();
+            GameOverUI.SetActive(true);
+            Debug.Log(level);
         }
-        Debug.Log("Health = " + Health);
+        // Debug.Log("Health = " + Health);
     }
 }

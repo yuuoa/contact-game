@@ -33,6 +33,12 @@ public class finisher : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void ResetLevel()
+    {
+        GameLevel = 0;
+        PlayerPrefs.SetInt("GameLevel", GameLevel);
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         GameLevel += 1;
