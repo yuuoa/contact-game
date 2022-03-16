@@ -65,6 +65,7 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\Scripts\ProceduralGenerationAlgorithms.cs" />
      <Compile Include="Assets\Scripts\WallGenerator.cs" />
+     <Compile Include="Assets\SystemInformation.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SimpleRandomWalkDungeonGenerator.cs" />
@@ -76,6 +77,7 @@
      <None Include="Assets\SimplePixelUI\fonts\Font1\license.txt" />
      <None Include="Assets\SimplePixelUI\fonts\Font1\readme.txt" />
      <None Include="Assets\SimplePixelUI\fonts\Font2\readme.txt" />
+     <None Include="Assets\SystemInformation.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

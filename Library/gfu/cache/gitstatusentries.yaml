@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-03-10T18:52:52.196+07:00
-  initializedAtString: 2022-03-10T14:04:55.470+07:00
+  lastUpdatedAtString: 2022-03-16T11:25:24.039+07:00
+  initializedAtString: 2022-03-16T11:25:01.216+07:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: D:\Projekt\unity\Contact\Assembly-CSharp.csproj
@@ -28,69 +28,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\finisher.cs
-    fullPath: D:\Projekt\unity\Contact\Assets\Scripts\finisher.cs
-    projectPath: Assets\Scripts\finisher.cs
+  - path: Assets\Scripts\SystemInformation.cs
+    fullPath: D:\Projekt\unity\Contact\Assets\Scripts\SystemInformation.cs
+    projectPath: Assets\Scripts\SystemInformation.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\PauseMenu.cs
-    fullPath: D:\Projekt\unity\Contact\Assets\Scripts\PauseMenu.cs
-    projectPath: Assets\Scripts\PauseMenu.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\SystemInformation.cs.meta
+    fullPath: D:\Projekt\unity\Contact\Assets\Scripts\SystemInformation.cs.meta
+    projectPath: Assets\Scripts\SystemInformation.cs.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\PlayerHealth.cs
-    fullPath: D:\Projekt\unity\Contact\Assets\Scripts\PlayerHealth.cs
-    projectPath: Assets\Scripts\PlayerHealth.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ArtifactDB
     fullPath: D:\Projekt\unity\Contact\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\00\00814e6b56c220436653369aa0761809
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\00\00814e6b56c220436653369aa0761809
-    projectPath: Library\Artifacts\00\00814e6b56c220436653369aa0761809
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\01\01c7993a8049bc5437c80c8bb08fc40c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\01\01c7993a8049bc5437c80c8bb08fc40c
-    projectPath: Library\Artifacts\01\01c7993a8049bc5437c80c8bb08fc40c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\02\02288593881a908f088f68fc8a35310d
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\02\02288593881a908f088f68fc8a35310d
-    projectPath: Library\Artifacts\02\02288593881a908f088f68fc8a35310d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\04\040b501b40059738596cb7ad4b20f5d7
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\04\040b501b40059738596cb7ad4b20f5d7
-    projectPath: Library\Artifacts\04\040b501b40059738596cb7ad4b20f5d7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\05\0581dd852a2a77cbeaf03532308d6d9b
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\05\0581dd852a2a77cbeaf03532308d6d9b
     projectPath: Library\Artifacts\05\0581dd852a2a77cbeaf03532308d6d9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\06\061a9df9b88d1a420b8e5a446f808b86
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\06\061a9df9b88d1a420b8e5a446f808b86
-    projectPath: Library\Artifacts\06\061a9df9b88d1a420b8e5a446f808b86
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\09\093a3c9573d3fe5d3a87d7a549892851
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\09\093a3c9573d3fe5d3a87d7a549892851
-    projectPath: Library\Artifacts\09\093a3c9573d3fe5d3a87d7a549892851
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -98,17 +56,11 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\09\09708ffce59be73184efec7bda1f7803
     projectPath: Library\Artifacts\09\09708ffce59be73184efec7bda1f7803
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\0b\0b639bd0d2a9399a63b4d0d2686583f2
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\0b\0b639bd0d2a9399a63b4d0d2686583f2
     projectPath: Library\Artifacts\0b\0b639bd0d2a9399a63b4d0d2686583f2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0b\0bfa3560a4ff04a02db45252e8040d05
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\0b\0bfa3560a4ff04a02db45252e8040d05
-    projectPath: Library\Artifacts\0b\0bfa3560a4ff04a02db45252e8040d05
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -116,131 +68,41 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\0c\0ca601a4393fd4c48d0f6fcf108ea170
     projectPath: Library\Artifacts\0c\0ca601a4393fd4c48d0f6fcf108ea170
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\0e\0ea3d1900c56860d8e470c75abcb5116
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\0e\0ea3d1900c56860d8e470c75abcb5116
     projectPath: Library\Artifacts\0e\0ea3d1900c56860d8e470c75abcb5116
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\11\1150b0e2bb9f730968cf2ef9d263d5f7
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\11\1150b0e2bb9f730968cf2ef9d263d5f7
-    projectPath: Library\Artifacts\11\1150b0e2bb9f730968cf2ef9d263d5f7
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\11\1190b5224ef88086858b1dac44b4f566
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\11\1190b5224ef88086858b1dac44b4f566
-    projectPath: Library\Artifacts\11\1190b5224ef88086858b1dac44b4f566
+  - path: Library\Artifacts\10\10f546d8d44340586427af80a14d57d4
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\10\10f546d8d44340586427af80a14d57d4
+    projectPath: Library\Artifacts\10\10f546d8d44340586427af80a14d57d4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\11\11bf02c397703deded8c7d8841e58114
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\11\11bf02c397703deded8c7d8841e58114
-    projectPath: Library\Artifacts\11\11bf02c397703deded8c7d8841e58114
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\12\12024cc7d894e267901fc049f9e1cf61
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\12\12024cc7d894e267901fc049f9e1cf61
-    projectPath: Library\Artifacts\12\12024cc7d894e267901fc049f9e1cf61
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\16\16447bb1499ea586e67cd681cbeb531b
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\16\16447bb1499ea586e67cd681cbeb531b
     projectPath: Library\Artifacts\16\16447bb1499ea586e67cd681cbeb531b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\17\17b143fe4f786e1357d27225a39f6189
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\17\17b143fe4f786e1357d27225a39f6189
-    projectPath: Library\Artifacts\17\17b143fe4f786e1357d27225a39f6189
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\1a\1ac11898d8d059cfe07b6b14552d0d07
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\1a\1ac11898d8d059cfe07b6b14552d0d07
     projectPath: Library\Artifacts\1a\1ac11898d8d059cfe07b6b14552d0d07
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1a\1ac3f98f47efbb185eca5a1dac383c69
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\1a\1ac3f98f47efbb185eca5a1dac383c69
-    projectPath: Library\Artifacts\1a\1ac3f98f47efbb185eca5a1dac383c69
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1b\1b3cad0ca524df485a44c8d80165f347
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\1b\1b3cad0ca524df485a44c8d80165f347
+    projectPath: Library\Artifacts\1b\1b3cad0ca524df485a44c8d80165f347
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\1e\1eeb87d44cc8901e0bd27043150e54db
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\1e\1eeb87d44cc8901e0bd27043150e54db
-    projectPath: Library\Artifacts\1e\1eeb87d44cc8901e0bd27043150e54db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\22\2282d97db42dd8d0f80b0a0a3e7160fe
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\22\2282d97db42dd8d0f80b0a0a3e7160fe
-    projectPath: Library\Artifacts\22\2282d97db42dd8d0f80b0a0a3e7160fe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\22\228d75607e56d75e81b028272462bcdc
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\22\228d75607e56d75e81b028272462bcdc
-    projectPath: Library\Artifacts\22\228d75607e56d75e81b028272462bcdc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\22\22e5bf9d2c887d19850acdac092cc9ed
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\22\22e5bf9d2c887d19850acdac092cc9ed
-    projectPath: Library\Artifacts\22\22e5bf9d2c887d19850acdac092cc9ed
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\24\24e5a899aad2165e8b338365c936010c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\24\24e5a899aad2165e8b338365c936010c
-    projectPath: Library\Artifacts\24\24e5a899aad2165e8b338365c936010c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\26\260ae98f7f981bae4e426245fc480eb1
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\26\260ae98f7f981bae4e426245fc480eb1
-    projectPath: Library\Artifacts\26\260ae98f7f981bae4e426245fc480eb1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\26\26a28cc6393ee5a2e1d102a9a43f1e1a
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\26\26a28cc6393ee5a2e1d102a9a43f1e1a
     projectPath: Library\Artifacts\26\26a28cc6393ee5a2e1d102a9a43f1e1a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\26\26dfa3a87e403e5f4196d2033c41e1e7
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\26\26dfa3a87e403e5f4196d2033c41e1e7
-    projectPath: Library\Artifacts\26\26dfa3a87e403e5f4196d2033c41e1e7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\27\274f0e2e7ac6820b42e002a7911302e8
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\27\274f0e2e7ac6820b42e002a7911302e8
-    projectPath: Library\Artifacts\27\274f0e2e7ac6820b42e002a7911302e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2a\2a88454223a54c3f230f60e1c4bc8af7
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\2a\2a88454223a54c3f230f60e1c4bc8af7
-    projectPath: Library\Artifacts\2a\2a88454223a54c3f230f60e1c4bc8af7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2b\2b14c87e8dc41632312fe5d5110e1ec0
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\2b\2b14c87e8dc41632312fe5d5110e1ec0
-    projectPath: Library\Artifacts\2b\2b14c87e8dc41632312fe5d5110e1ec0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2b\2b1d8a8fd89582bc86a2d78b89c07203
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\2b\2b1d8a8fd89582bc86a2d78b89c07203
-    projectPath: Library\Artifacts\2b\2b1d8a8fd89582bc86a2d78b89c07203
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -248,143 +110,11 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\2b\2b4a1f6504202482055d4a206aad5f93
     projectPath: Library\Artifacts\2b\2b4a1f6504202482055d4a206aad5f93
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2d\2d61451ee6ab385b68ee99f80a55de1c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\2d\2d61451ee6ab385b68ee99f80a55de1c
-    projectPath: Library\Artifacts\2d\2d61451ee6ab385b68ee99f80a55de1c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2d\2ddfa826b72029830ab1d16b0c4013e8
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\2d\2ddfa826b72029830ab1d16b0c4013e8
-    projectPath: Library\Artifacts\2d\2ddfa826b72029830ab1d16b0c4013e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\30\30fa05c47c07c64d754489e1aa9b5712
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\30\30fa05c47c07c64d754489e1aa9b5712
-    projectPath: Library\Artifacts\30\30fa05c47c07c64d754489e1aa9b5712
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\32\32e4a57bd9ca8ce517d62f67e5bae61b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\32\32e4a57bd9ca8ce517d62f67e5bae61b
-    projectPath: Library\Artifacts\32\32e4a57bd9ca8ce517d62f67e5bae61b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\33\3325807c58a5d62f2b292719e60cc82e
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\33\3325807c58a5d62f2b292719e60cc82e
-    projectPath: Library\Artifacts\33\3325807c58a5d62f2b292719e60cc82e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\33\339404f748f2674e547df9700e9d9b66
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\33\339404f748f2674e547df9700e9d9b66
-    projectPath: Library\Artifacts\33\339404f748f2674e547df9700e9d9b66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\36\365413e91f04f41db97a36531ae8ce5b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\36\365413e91f04f41db97a36531ae8ce5b
-    projectPath: Library\Artifacts\36\365413e91f04f41db97a36531ae8ce5b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\3928d7d4e0b29dce9f6ccaa050202697
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\39\3928d7d4e0b29dce9f6ccaa050202697
-    projectPath: Library\Artifacts\39\3928d7d4e0b29dce9f6ccaa050202697
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3d\3d29ffcfd6061a0dd66463e0edb26788
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\3d\3d29ffcfd6061a0dd66463e0edb26788
-    projectPath: Library\Artifacts\3d\3d29ffcfd6061a0dd66463e0edb26788
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3d\3d935b947181960da083db6b6ef14cc2
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\3d\3d935b947181960da083db6b6ef14cc2
-    projectPath: Library\Artifacts\3d\3d935b947181960da083db6b6ef14cc2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3f\3f05256b88b8713ab3050f8a074c1368
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\3f\3f05256b88b8713ab3050f8a074c1368
-    projectPath: Library\Artifacts\3f\3f05256b88b8713ab3050f8a074c1368
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\44\449b5a61158ed27347b9661a235ac951
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\44\449b5a61158ed27347b9661a235ac951
-    projectPath: Library\Artifacts\44\449b5a61158ed27347b9661a235ac951
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\45\45828f73af230457f18ded65247ee711
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\45\45828f73af230457f18ded65247ee711
-    projectPath: Library\Artifacts\45\45828f73af230457f18ded65247ee711
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\47\4710cff7811426be7140706f14ce4a7c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\47\4710cff7811426be7140706f14ce4a7c
-    projectPath: Library\Artifacts\47\4710cff7811426be7140706f14ce4a7c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\47\47123b06a8e39645ff0d583e6ae55e03
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\47\47123b06a8e39645ff0d583e6ae55e03
-    projectPath: Library\Artifacts\47\47123b06a8e39645ff0d583e6ae55e03
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\47\473a36f75138b777a079fbebf12ee625
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\47\473a36f75138b777a079fbebf12ee625
-    projectPath: Library\Artifacts\47\473a36f75138b777a079fbebf12ee625
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\47\47c343af18c1f4a177e7e3a2d363ba19
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\47\47c343af18c1f4a177e7e3a2d363ba19
-    projectPath: Library\Artifacts\47\47c343af18c1f4a177e7e3a2d363ba19
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4a\4ab77be22e4b2038a9fdd7a9cfa6083d
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4a\4ab77be22e4b2038a9fdd7a9cfa6083d
-    projectPath: Library\Artifacts\4a\4ab77be22e4b2038a9fdd7a9cfa6083d
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\4b\4b86b80c2fb3af1b5ab5405d3425a1f6
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4b\4b86b80c2fb3af1b5ab5405d3425a1f6
     projectPath: Library\Artifacts\4b\4b86b80c2fb3af1b5ab5405d3425a1f6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4b\4b96c557c345dc766fb0e5d10f313f20
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4b\4b96c557c345dc766fb0e5d10f313f20
-    projectPath: Library\Artifacts\4b\4b96c557c345dc766fb0e5d10f313f20
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4e\4e0bdbb893678586392c52d05efd4f08
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4e\4e0bdbb893678586392c52d05efd4f08
-    projectPath: Library\Artifacts\4e\4e0bdbb893678586392c52d05efd4f08
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4f\4f03b620c20775d708e499eece87024c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4f\4f03b620c20775d708e499eece87024c
-    projectPath: Library\Artifacts\4f\4f03b620c20775d708e499eece87024c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4f\4fad8526d98fc2204302318a6f380dcc
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4f\4fad8526d98fc2204302318a6f380dcc
-    projectPath: Library\Artifacts\4f\4fad8526d98fc2204302318a6f380dcc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -392,23 +122,23 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\4f\4ff499ba28559ed3e4ae3e65d3e973f4
     projectPath: Library\Artifacts\4f\4ff499ba28559ed3e4ae3e65d3e973f4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\56\56003010bb8afcefe6f63fb1eb639b08
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\56\56003010bb8afcefe6f63fb1eb639b08
+    projectPath: Library\Artifacts\56\56003010bb8afcefe6f63fb1eb639b08
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\54\5425bfb581c7ee408b06671cc845fdd3
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\54\5425bfb581c7ee408b06671cc845fdd3
-    projectPath: Library\Artifacts\54\5425bfb581c7ee408b06671cc845fdd3
+  - path: Library\Artifacts\57\57cd341b4b3bacd9ad87859d7a6855d7
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\57\57cd341b4b3bacd9ad87859d7a6855d7
+    projectPath: Library\Artifacts\57\57cd341b4b3bacd9ad87859d7a6855d7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\55\558e49a8124fee32a5ecf6576686ea6e
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\55\558e49a8124fee32a5ecf6576686ea6e
-    projectPath: Library\Artifacts\55\558e49a8124fee32a5ecf6576686ea6e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\57\57cda2a2ed57f9b5e73d6610b29a6b10
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\57\57cda2a2ed57f9b5e73d6610b29a6b10
-    projectPath: Library\Artifacts\57\57cda2a2ed57f9b5e73d6610b29a6b10
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\57\57dac2158028b779c04c9686cf73018f
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\57\57dac2158028b779c04c9686cf73018f
+    projectPath: Library\Artifacts\57\57dac2158028b779c04c9686cf73018f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -416,65 +146,17 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\59\59d7e9aadb2c5882c97cc3481aac4c38
     projectPath: Library\Artifacts\59\59d7e9aadb2c5882c97cc3481aac4c38
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5a\5acbe66538c93e380794992944dfe724
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\5a\5acbe66538c93e380794992944dfe724
-    projectPath: Library\Artifacts\5a\5acbe66538c93e380794992944dfe724
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5c\5cfe3df262dbd87b74a6d958c1ad0220
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\5c\5cfe3df262dbd87b74a6d958c1ad0220
-    projectPath: Library\Artifacts\5c\5cfe3df262dbd87b74a6d958c1ad0220
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\5d\5daaf29a33664aa98461368c4c3220a3
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\5d\5daaf29a33664aa98461368c4c3220a3
     projectPath: Library\Artifacts\5d\5daaf29a33664aa98461368c4c3220a3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\5d\5df0e06d0af200bc20b5121933de0629
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\5d\5df0e06d0af200bc20b5121933de0629
     projectPath: Library\Artifacts\5d\5df0e06d0af200bc20b5121933de0629
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5f\5fa986df3aaaff9e922f4be1e4f1cb74
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\5f\5fa986df3aaaff9e922f4be1e4f1cb74
-    projectPath: Library\Artifacts\5f\5fa986df3aaaff9e922f4be1e4f1cb74
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\60\603be8ac5f389a08ed12fe105053c97b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\60\603be8ac5f389a08ed12fe105053c97b
-    projectPath: Library\Artifacts\60\603be8ac5f389a08ed12fe105053c97b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\62\62194d1eea06e3a870b87a405c70ea05
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\62\62194d1eea06e3a870b87a405c70ea05
-    projectPath: Library\Artifacts\62\62194d1eea06e3a870b87a405c70ea05
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\62\62a6ca9a9962c1be71c330f60b793af2
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\62\62a6ca9a9962c1be71c330f60b793af2
-    projectPath: Library\Artifacts\62\62a6ca9a9962c1be71c330f60b793af2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\67\6737add38915a81c50a310c7fbb47553
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\67\6737add38915a81c50a310c7fbb47553
-    projectPath: Library\Artifacts\67\6737add38915a81c50a310c7fbb47553
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\68\68089971d229d66d3130dce98827b825
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\68\68089971d229d66d3130dce98827b825
-    projectPath: Library\Artifacts\68\68089971d229d66d3130dce98827b825
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -482,89 +164,35 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\68\68fc921b00753eb7c0832d06891c8a22
     projectPath: Library\Artifacts\68\68fc921b00753eb7c0832d06891c8a22
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\69\69d8ab3d8ecfd0d9f5b140ab73afad4c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\69\69d8ab3d8ecfd0d9f5b140ab73afad4c
-    projectPath: Library\Artifacts\69\69d8ab3d8ecfd0d9f5b140ab73afad4c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6a\6a7c8bd2b90f215aa5636d1c94deb4ee
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\6a\6a7c8bd2b90f215aa5636d1c94deb4ee
-    projectPath: Library\Artifacts\6a\6a7c8bd2b90f215aa5636d1c94deb4ee
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\6a\6a9b36a779c45e7a0462eeed49427d6d
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\6a\6a9b36a779c45e7a0462eeed49427d6d
     projectPath: Library\Artifacts\6a\6a9b36a779c45e7a0462eeed49427d6d
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6a\6aa4787834a41adc74c6bc0401217784
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\6a\6aa4787834a41adc74c6bc0401217784
+    projectPath: Library\Artifacts\6a\6aa4787834a41adc74c6bc0401217784
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\6c\6ca947f20b59a275b7c6a9b075f89c8c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\6c\6ca947f20b59a275b7c6a9b075f89c8c
-    projectPath: Library\Artifacts\6c\6ca947f20b59a275b7c6a9b075f89c8c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6c\6cf60235acdd947dbd6e079e8c8fe541
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\6c\6cf60235acdd947dbd6e079e8c8fe541
-    projectPath: Library\Artifacts\6c\6cf60235acdd947dbd6e079e8c8fe541
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\70\70c02f90e2c9214294716b682068c1ef
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\70\70c02f90e2c9214294716b682068c1ef
     projectPath: Library\Artifacts\70\70c02f90e2c9214294716b682068c1ef
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\71\71b4ef34bd90638b56a223aa94533b9d
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\71\71b4ef34bd90638b56a223aa94533b9d
-    projectPath: Library\Artifacts\71\71b4ef34bd90638b56a223aa94533b9d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\73\73ec62c91f63d9402e6c20a25dc763d1
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\73\73ec62c91f63d9402e6c20a25dc763d1
-    projectPath: Library\Artifacts\73\73ec62c91f63d9402e6c20a25dc763d1
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\71\71d479b484a0d8ec789e3dbab2c589bf
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\71\71d479b484a0d8ec789e3dbab2c589bf
+    projectPath: Library\Artifacts\71\71d479b484a0d8ec789e3dbab2c589bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\74\74df4839736f16dfe64602e7117975c3
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\74\74df4839736f16dfe64602e7117975c3
     projectPath: Library\Artifacts\74\74df4839736f16dfe64602e7117975c3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\76\766f39184f3554311f97c2f99f20913e
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\76\766f39184f3554311f97c2f99f20913e
-    projectPath: Library\Artifacts\76\766f39184f3554311f97c2f99f20913e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\76\76d80fb6526d80d1bcac1c85d3baf450
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\76\76d80fb6526d80d1bcac1c85d3baf450
-    projectPath: Library\Artifacts\76\76d80fb6526d80d1bcac1c85d3baf450
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\77\77b55c2b577194d933c5a32656c15366
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\77\77b55c2b577194d933c5a32656c15366
-    projectPath: Library\Artifacts\77\77b55c2b577194d933c5a32656c15366
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7d\7d10a3736121677051b43326820b6748
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\7d\7d10a3736121677051b43326820b6748
-    projectPath: Library\Artifacts\7d\7d10a3736121677051b43326820b6748
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\80\80be6322203dfb2e012a9bb5416a9112
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\80\80be6322203dfb2e012a9bb5416a9112
-    projectPath: Library\Artifacts\80\80be6322203dfb2e012a9bb5416a9112
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -572,413 +200,65 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\86\8642c618fdb509d25fa90f0af8db43c8
     projectPath: Library\Artifacts\86\8642c618fdb509d25fa90f0af8db43c8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\87\87f18ba2cf8bfcca83a6a31507403b92
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\87\87f18ba2cf8bfcca83a6a31507403b92
-    projectPath: Library\Artifacts\87\87f18ba2cf8bfcca83a6a31507403b92
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\86\866a1ababe7eb45b45848e2e68705e74
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\86\866a1ababe7eb45b45848e2e68705e74
+    projectPath: Library\Artifacts\86\866a1ababe7eb45b45848e2e68705e74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\89\8924ebd9ecc344a6941528a84065800d
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\89\8924ebd9ecc344a6941528a84065800d
     projectPath: Library\Artifacts\89\8924ebd9ecc344a6941528a84065800d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8a\8ae4bb1c512a73babbf851e62c685e7c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\8a\8ae4bb1c512a73babbf851e62c685e7c
-    projectPath: Library\Artifacts\8a\8ae4bb1c512a73babbf851e62c685e7c
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\8b\8b75ba2a4752df04e6bb32cbc23ba7da
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\8b\8b75ba2a4752df04e6bb32cbc23ba7da
-    projectPath: Library\Artifacts\8b\8b75ba2a4752df04e6bb32cbc23ba7da
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8e\8eb61b2e20f7e9afe3510b176c6c9d37
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\8e\8eb61b2e20f7e9afe3510b176c6c9d37
-    projectPath: Library\Artifacts\8e\8eb61b2e20f7e9afe3510b176c6c9d37
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\90\9073c83925f9be8afacb6f13cfcbe80b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\90\9073c83925f9be8afacb6f13cfcbe80b
-    projectPath: Library\Artifacts\90\9073c83925f9be8afacb6f13cfcbe80b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\93\93593ed17c958d54e855873778f764e4
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\93\93593ed17c958d54e855873778f764e4
-    projectPath: Library\Artifacts\93\93593ed17c958d54e855873778f764e4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\98\9870183639e0a7b1ee350e9c8c830d66
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\98\9870183639e0a7b1ee350e9c8c830d66
-    projectPath: Library\Artifacts\98\9870183639e0a7b1ee350e9c8c830d66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9a\9ad4975a0d0be15a0cf6ef38cd7c84a4
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\9a\9ad4975a0d0be15a0cf6ef38cd7c84a4
-    projectPath: Library\Artifacts\9a\9ad4975a0d0be15a0cf6ef38cd7c84a4
+  - path: Library\Artifacts\8d\8d27520b9a880733d9909bcb1bf5b03d
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\8d\8d27520b9a880733d9909bcb1bf5b03d
+    projectPath: Library\Artifacts\8d\8d27520b9a880733d9909bcb1bf5b03d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\9a\9af171259294825a048fc6243e752a65
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\9a\9af171259294825a048fc6243e752a65
-    projectPath: Library\Artifacts\9a\9af171259294825a048fc6243e752a65
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9b\9b145f9efda26ede93660304cfe3f705
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\9b\9b145f9efda26ede93660304cfe3f705
-    projectPath: Library\Artifacts\9b\9b145f9efda26ede93660304cfe3f705
+  - path: Library\Artifacts\aa\aa55d10f21a933e58a3f3007c95218d0
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\aa\aa55d10f21a933e58a3f3007c95218d0
+    projectPath: Library\Artifacts\aa\aa55d10f21a933e58a3f3007c95218d0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\9b\9b31340e02193e868909f4d05b72b7e4
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\9b\9b31340e02193e868909f4d05b72b7e4
-    projectPath: Library\Artifacts\9b\9b31340e02193e868909f4d05b72b7e4
+  - path: Library\Artifacts\b0\b059517adf98f3b62b355c1010bd7c1b
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b0\b059517adf98f3b62b355c1010bd7c1b
+    projectPath: Library\Artifacts\b0\b059517adf98f3b62b355c1010bd7c1b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\a0\a0a535f5af1b15b9d1e6577e9c97b568
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\a0\a0a535f5af1b15b9d1e6577e9c97b568
-    projectPath: Library\Artifacts\a0\a0a535f5af1b15b9d1e6577e9c97b568
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a1\a123e105707c69292fcdd080acd73bea
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\a1\a123e105707c69292fcdd080acd73bea
-    projectPath: Library\Artifacts\a1\a123e105707c69292fcdd080acd73bea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a1\a130ab21f54071ab80a92b2f0da0aedc
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\a1\a130ab21f54071ab80a92b2f0da0aedc
-    projectPath: Library\Artifacts\a1\a130ab21f54071ab80a92b2f0da0aedc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a1\a1765781ccf810f9c4c78134d71b2760
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\a1\a1765781ccf810f9c4c78134d71b2760
-    projectPath: Library\Artifacts\a1\a1765781ccf810f9c4c78134d71b2760
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a6\a6f8a0660ad515b3f16830a9998bb0dd
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\a6\a6f8a0660ad515b3f16830a9998bb0dd
-    projectPath: Library\Artifacts\a6\a6f8a0660ad515b3f16830a9998bb0dd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a9\a950edc07f3ef8e8f20a5db03ace64bf
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\a9\a950edc07f3ef8e8f20a5db03ace64bf
-    projectPath: Library\Artifacts\a9\a950edc07f3ef8e8f20a5db03ace64bf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ab\ab161fb6b49ec541c3e59df600fe5cea
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ab\ab161fb6b49ec541c3e59df600fe5cea
-    projectPath: Library\Artifacts\ab\ab161fb6b49ec541c3e59df600fe5cea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ad\adcc54b20b6f12ae170f4daef59a193e
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ad\adcc54b20b6f12ae170f4daef59a193e
-    projectPath: Library\Artifacts\ad\adcc54b20b6f12ae170f4daef59a193e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ae\aef805ba0318388ea2b42b8cfd600e8b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ae\aef805ba0318388ea2b42b8cfd600e8b
-    projectPath: Library\Artifacts\ae\aef805ba0318388ea2b42b8cfd600e8b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\af\af0e3c6979300e3541a757218f380e27
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\af\af0e3c6979300e3541a757218f380e27
-    projectPath: Library\Artifacts\af\af0e3c6979300e3541a757218f380e27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b0\b0ee2b1b7aa4022c6cdf1cfbfb79dafe
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b0\b0ee2b1b7aa4022c6cdf1cfbfb79dafe
-    projectPath: Library\Artifacts\b0\b0ee2b1b7aa4022c6cdf1cfbfb79dafe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b1\b12031c475e449bacaa8ecf600b7564a
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b1\b12031c475e449bacaa8ecf600b7564a
-    projectPath: Library\Artifacts\b1\b12031c475e449bacaa8ecf600b7564a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b2\b21230079031af7fd40c6d58b59e69a2
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b2\b21230079031af7fd40c6d58b59e69a2
-    projectPath: Library\Artifacts\b2\b21230079031af7fd40c6d58b59e69a2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\b4\b49a934bb45cf0689eb1981063c07ef0
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b4\b49a934bb45cf0689eb1981063c07ef0
     projectPath: Library\Artifacts\b4\b49a934bb45cf0689eb1981063c07ef0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b5\b50fcce59fc2693d7d8dee6a69537720
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b5\b50fcce59fc2693d7d8dee6a69537720
-    projectPath: Library\Artifacts\b5\b50fcce59fc2693d7d8dee6a69537720
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\b7\b7553d48eba44b8799c15a2e34bbae8e
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\b7\b7553d48eba44b8799c15a2e34bbae8e
-    projectPath: Library\Artifacts\b7\b7553d48eba44b8799c15a2e34bbae8e
+  - path: Library\Artifacts\bf\bf112bfa7d9842883768e97104f06fa0
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\bf\bf112bfa7d9842883768e97104f06fa0
+    projectPath: Library\Artifacts\bf\bf112bfa7d9842883768e97104f06fa0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ba\ba1a6f590f12fcc54f2e75f4c48998c5
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ba\ba1a6f590f12fcc54f2e75f4c48998c5
-    projectPath: Library\Artifacts\ba\ba1a6f590f12fcc54f2e75f4c48998c5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bd\bd1ef374ba4c27d8a9b61e780e944a25
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\bd\bd1ef374ba4c27d8a9b61e780e944a25
-    projectPath: Library\Artifacts\bd\bd1ef374ba4c27d8a9b61e780e944a25
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\be\be8b96e79b93f90320023d4e80770dac
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\be\be8b96e79b93f90320023d4e80770dac
-    projectPath: Library\Artifacts\be\be8b96e79b93f90320023d4e80770dac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\be\be9eff9e84f0369830398988081c60e0
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\be\be9eff9e84f0369830398988081c60e0
-    projectPath: Library\Artifacts\be\be9eff9e84f0369830398988081c60e0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c3\c325d5f450d2924c9867326d2791ad5c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\c3\c325d5f450d2924c9867326d2791ad5c
-    projectPath: Library\Artifacts\c3\c325d5f450d2924c9867326d2791ad5c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c3\c36fcce536a22e48c5140b5e9197fcb7
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\c3\c36fcce536a22e48c5140b5e9197fcb7
-    projectPath: Library\Artifacts\c3\c36fcce536a22e48c5140b5e9197fcb7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c4\c4b00792dd80fe791eaea4224bc9eb58
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\c4\c4b00792dd80fe791eaea4224bc9eb58
-    projectPath: Library\Artifacts\c4\c4b00792dd80fe791eaea4224bc9eb58
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c6\c6c37dc8cb4b3dbc39869356de647e1d
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\c6\c6c37dc8cb4b3dbc39869356de647e1d
-    projectPath: Library\Artifacts\c6\c6c37dc8cb4b3dbc39869356de647e1d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c9\c9a110482526d3414da8d0848f0e8dae
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\c9\c9a110482526d3414da8d0848f0e8dae
-    projectPath: Library\Artifacts\c9\c9a110482526d3414da8d0848f0e8dae
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ca\ca6b3b492eb07e04fc63b9c9075e875c
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ca\ca6b3b492eb07e04fc63b9c9075e875c
-    projectPath: Library\Artifacts\ca\ca6b3b492eb07e04fc63b9c9075e875c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\ca\cabe5eae6e3ec61b015978d3fffd77cd
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ca\cabe5eae6e3ec61b015978d3fffd77cd
     projectPath: Library\Artifacts\ca\cabe5eae6e3ec61b015978d3fffd77cd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ca\cadf86056aa94e8112e084008bbe22a3
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ca\cadf86056aa94e8112e084008bbe22a3
-    projectPath: Library\Artifacts\ca\cadf86056aa94e8112e084008bbe22a3
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\dd\dd9f0837b0c66919b22467b0c881b0b9
+    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\dd\dd9f0837b0c66919b22467b0c881b0b9
+    projectPath: Library\Artifacts\dd\dd9f0837b0c66919b22467b0c881b0b9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\cb\cb0c9f9c46462a8d748b6daa95c11a6b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\cb\cb0c9f9c46462a8d748b6daa95c11a6b
-    projectPath: Library\Artifacts\cb\cb0c9f9c46462a8d748b6daa95c11a6b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\cd\cd7b2420e78812a812b9de83b7d08e02
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\cd\cd7b2420e78812a812b9de83b7d08e02
-    projectPath: Library\Artifacts\cd\cd7b2420e78812a812b9de83b7d08e02
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cf\cf16bc01109d1b45867625f689eccf24
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\cf\cf16bc01109d1b45867625f689eccf24
-    projectPath: Library\Artifacts\cf\cf16bc01109d1b45867625f689eccf24
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d0\d04f4270ed29693ebbf5c02623d222cc
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d0\d04f4270ed29693ebbf5c02623d222cc
-    projectPath: Library\Artifacts\d0\d04f4270ed29693ebbf5c02623d222cc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d1\d132d23aeee856fd6111939e0ef91939
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d1\d132d23aeee856fd6111939e0ef91939
-    projectPath: Library\Artifacts\d1\d132d23aeee856fd6111939e0ef91939
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d1723387c5daffe5538bbedc55da50b1
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d1\d1723387c5daffe5538bbedc55da50b1
-    projectPath: Library\Artifacts\d1\d1723387c5daffe5538bbedc55da50b1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d1dce4c2cf74eb434479111ebd272101
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d1\d1dce4c2cf74eb434479111ebd272101
-    projectPath: Library\Artifacts\d1\d1dce4c2cf74eb434479111ebd272101
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d4\d4a0ad936b10bbc93e2082d9f6540157
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d4\d4a0ad936b10bbc93e2082d9f6540157
-    projectPath: Library\Artifacts\d4\d4a0ad936b10bbc93e2082d9f6540157
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d5\d5acba84046e51454e4b03ae6d4ae3f5
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d5\d5acba84046e51454e4b03ae6d4ae3f5
-    projectPath: Library\Artifacts\d5\d5acba84046e51454e4b03ae6d4ae3f5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d8\d81bdd353f12b6bd71fd7202b349404e
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\d8\d81bdd353f12b6bd71fd7202b349404e
-    projectPath: Library\Artifacts\d8\d81bdd353f12b6bd71fd7202b349404e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\de\de197a7629969a80bd3f9b85e3104efb
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\de\de197a7629969a80bd3f9b85e3104efb
-    projectPath: Library\Artifacts\de\de197a7629969a80bd3f9b85e3104efb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\de\de23f0c8bf12e428c1d256d44839f027
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\de\de23f0c8bf12e428c1d256d44839f027
-    projectPath: Library\Artifacts\de\de23f0c8bf12e428c1d256d44839f027
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\df\dfe7b1b81413bf8f083473ff84841a49
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\df\dfe7b1b81413bf8f083473ff84841a49
-    projectPath: Library\Artifacts\df\dfe7b1b81413bf8f083473ff84841a49
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\df\dff2644cd00ada2654c88e1d66350294
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\df\dff2644cd00ada2654c88e1d66350294
-    projectPath: Library\Artifacts\df\dff2644cd00ada2654c88e1d66350294
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e1\e16911336a7b80a8d8477ddf5e196f29
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\e1\e16911336a7b80a8d8477ddf5e196f29
-    projectPath: Library\Artifacts\e1\e16911336a7b80a8d8477ddf5e196f29
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e3\e3f3c4cb9f297376bc8ee6ceb87fe404
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\e3\e3f3c4cb9f297376bc8ee6ceb87fe404
-    projectPath: Library\Artifacts\e3\e3f3c4cb9f297376bc8ee6ceb87fe404
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e7\e79054c1a83f5e5c5050e9d689d629a8
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\e7\e79054c1a83f5e5c5050e9d689d629a8
-    projectPath: Library\Artifacts\e7\e79054c1a83f5e5c5050e9d689d629a8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e9\e9e99545e42f7c34f7e9be043d6f42ca
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\e9\e9e99545e42f7c34f7e9be043d6f42ca
-    projectPath: Library\Artifacts\e9\e9e99545e42f7c34f7e9be043d6f42ca
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ea\ea283ec482906c854c72b6f969b5497d
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ea\ea283ec482906c854c72b6f969b5497d
-    projectPath: Library\Artifacts\ea\ea283ec482906c854c72b6f969b5497d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\eb\eb678f129375db40cc1f8a74e4cc1e18
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\eb\eb678f129375db40cc1f8a74e4cc1e18
-    projectPath: Library\Artifacts\eb\eb678f129375db40cc1f8a74e4cc1e18
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\ec\ec03f99eccb0873a81c168df4972ed68
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ec\ec03f99eccb0873a81c168df4972ed68
     projectPath: Library\Artifacts\ec\ec03f99eccb0873a81c168df4972ed68
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ec\ec443182e1715677f8f2fe7c107b28ce
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ec\ec443182e1715677f8f2fe7c107b28ce
-    projectPath: Library\Artifacts\ec\ec443182e1715677f8f2fe7c107b28ce
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ed\ed15da334d4eb9f7efe63146de80c0c2
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\ed\ed15da334d4eb9f7efe63146de80c0c2
-    projectPath: Library\Artifacts\ed\ed15da334d4eb9f7efe63146de80c0c2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f1\f19452431dd8ebc3972b2b27de70e12d
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\f1\f19452431dd8ebc3972b2b27de70e12d
-    projectPath: Library\Artifacts\f1\f19452431dd8ebc3972b2b27de70e12d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f5\f50a3e88f7a78e872a3f9751929bb09f
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\f5\f50a3e88f7a78e872a3f9751929bb09f
-    projectPath: Library\Artifacts\f5\f50a3e88f7a78e872a3f9751929bb09f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f6\f667807ff29c59d5f2d2ad202ae659e9
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\f6\f667807ff29c59d5f2d2ad202ae659e9
-    projectPath: Library\Artifacts\f6\f667807ff29c59d5f2d2ad202ae659e9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f7\f7688d9a61d030c3b2a324760f869e3b
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\f7\f7688d9a61d030c3b2a324760f869e3b
-    projectPath: Library\Artifacts\f7\f7688d9a61d030c3b2a324760f869e3b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f7\f787c4803c15d055c33c61b85c9bf9c7
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\f7\f787c4803c15d055c33c61b85c9bf9c7
-    projectPath: Library\Artifacts\f7\f787c4803c15d055c33c61b85c9bf9c7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -986,32 +266,38 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\fb\fb0ba724ab4a5ea0a44e78c36a500b51
     projectPath: Library\Artifacts\fb\fb0ba724ab4a5ea0a44e78c36a500b51
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fc\fc2af897808322ca61d136097f9d81f2
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\fc\fc2af897808322ca61d136097f9d81f2
-    projectPath: Library\Artifacts\fc\fc2af897808322ca61d136097f9d81f2
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\fd\fd8b20686bc1ac216aaeff1f4a739dbe
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\fd\fd8b20686bc1ac216aaeff1f4a739dbe
     projectPath: Library\Artifacts\fd\fd8b20686bc1ac216aaeff1f4a739dbe
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\fe\fe86391bdeddce03b3aea71aa823aecc
     fullPath: D:\Projekt\unity\Contact\Library\Artifacts\fe\fe86391bdeddce03b3aea71aa823aecc
     projectPath: Library\Artifacts\fe\fe86391bdeddce03b3aea71aa823aecc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fe\fea03e7e5e81f7024a9af0e0b99674c6
-    fullPath: D:\Projekt\unity\Contact\Library\Artifacts\fe\fea03e7e5e81f7024a9af0e0b99674c6
-    projectPath: Library\Artifacts\fe\fea03e7e5e81f7024a9af0e0b99674c6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\BuildPlayerData\Editor\TypeDb-All.json
+    fullPath: D:\Projekt\unity\Contact\Library\BuildPlayerData\Editor\TypeDb-All.json
+    projectPath: Library\BuildPlayerData\Editor\TypeDb-All.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\BuildPlayerData\Player\TypeDb-All.json
+    fullPath: D:\Projekt\unity\Contact\Library\BuildPlayerData\Player\TypeDb-All.json
+    projectPath: Library\BuildPlayerData\Player\TypeDb-All.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\BuildPlayerData\response.rsp
+    fullPath: D:\Projekt\unity\Contact\Library\BuildPlayerData\response.rsp
+    projectPath: Library\BuildPlayerData\response.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\CurrentLayout-default.dwlt
     fullPath: D:\Projekt\unity\Contact\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
@@ -1024,6 +310,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: D:\Projekt\unity\Contact\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Projekt\unity\Contact\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -1054,21 +346,123 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: D:\Projekt\unity\Contact\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: D:\Projekt\unity\Contact\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: D:\Projekt\unity\Contact\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\LastBuild.buildreport
+    fullPath: D:\Projekt\unity\Contact\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\boot.config
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\boot.config
+    projectPath: Library\PlayerDataCache\Win64\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\level0
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\level0
+    projectPath: Library\PlayerDataCache\Win64\Data\level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\level1
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\level1
+    projectPath: Library\PlayerDataCache\Win64\Data\level1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.pdb
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.pdb
+    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\Managed\Newtonsoft.Json.dll
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\Managed\Newtonsoft.Json.dll
+    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.pdb
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.pdb
+    projectPath: Library\PlayerDataCache\Win64\Data\Managed\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PlayerDataCache\Win64\Data\resources.assets
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\resources.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\resources.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PlayerDataCache\Win64\Data\resources.assets.resS
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\resources.assets.resS
+    projectPath: Library\PlayerDataCache\Win64\Data\resources.assets.resS
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PlayerDataCache\Win64\Data\ScriptingAssemblies.json
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\ScriptingAssemblies.json
+    projectPath: Library\PlayerDataCache\Win64\Data\ScriptingAssemblies.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets0.assets.resS
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\sharedassets0.assets.resS
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets0.assets.resS
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets1.assets
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\sharedassets1.assets
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets1.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\Data\sharedassets1.assets.resS
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\Data\sharedassets1.assets.resS
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets1.assets.resS
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
+    fullPath: D:\Projekt\unity\Contact\Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
+    projectPath: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1102,6 +496,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: D:\Projekt\unity\Contact\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Style.catalog
+    fullPath: D:\Projekt\unity\Contact\Library\Style.catalog
+    projectPath: Library\Style.catalog
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    fullPath: D:\Projekt\unity\Contact\Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    projectPath: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Logs\ApiUpdaterCheck.txt
     fullPath: D:\Projekt\unity\Contact\Logs\ApiUpdaterCheck.txt
     projectPath: Logs\ApiUpdaterCheck.txt
@@ -1118,50 +530,20 @@ MonoBehaviour:
     fullPath: D:\Projekt\unity\Contact\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Logs\shadercompiler-AssetImportWorker0.log
     fullPath: D:\Projekt\unity\Contact\Logs\shadercompiler-AssetImportWorker0.log
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: D:\Projekt\unity\Contact\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: D:\Projekt\unity\Contact\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: D:\Projekt\unity\Contact\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFrom188162a6cbcc17d4dafd933c9d0c1065
-    fullPath: D:\Projekt\unity\Contact\Temp\ApiUpdater_CheckMovedFrom188162a6cbcc17d4dafd933c9d0c1065
-    projectPath: Temp\ApiUpdater_CheckMovedFrom188162a6cbcc17d4dafd933c9d0c1065
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFrom499d6304a75466b45a8cf056c4d44ffa
-    fullPath: D:\Projekt\unity\Contact\Temp\ApiUpdater_CheckMovedFrom499d6304a75466b45a8cf056c4d44ffa
-    projectPath: Temp\ApiUpdater_CheckMovedFrom499d6304a75466b45a8cf056c4d44ffa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFrom62a268b95c0752f4086a0b91acddfd1c
-    fullPath: D:\Projekt\unity\Contact\Temp\ApiUpdater_CheckMovedFrom62a268b95c0752f4086a0b91acddfd1c
-    projectPath: Temp\ApiUpdater_CheckMovedFrom62a268b95c0752f4086a0b91acddfd1c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFromd9ccc557afebae24395a809f2c1cd2d6
-    fullPath: D:\Projekt\unity\Contact\Temp\ApiUpdater_CheckMovedFromd9ccc557afebae24395a809f2c1cd2d6
-    projectPath: Temp\ApiUpdater_CheckMovedFromd9ccc557afebae24395a809f2c1cd2d6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\Assembly-CSharp.dll.hash
     fullPath: D:\Projekt\unity\Contact\Temp\Assembly-CSharp.dll.hash
     projectPath: Temp\Assembly-CSharp.dll.hash
@@ -1186,249 +568,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0941741bc4fc5a444a9c4a154b9ae869
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-0941741bc4fc5a444a9c4a154b9ae869
-    projectPath: Temp\UnityTempFile-0941741bc4fc5a444a9c4a154b9ae869
+  - path: Temp\UnityTempFile-95755294c83c46b47a4eab328ff733aa
+    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-95755294c83c46b47a4eab328ff733aa
+    projectPath: Temp\UnityTempFile-95755294c83c46b47a4eab328ff733aa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0f7adc21cedaa634aaa1db1ac211dba6
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-0f7adc21cedaa634aaa1db1ac211dba6
-    projectPath: Temp\UnityTempFile-0f7adc21cedaa634aaa1db1ac211dba6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1f1dd9deb73922645846f19ee58740ad
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-1f1dd9deb73922645846f19ee58740ad
-    projectPath: Temp\UnityTempFile-1f1dd9deb73922645846f19ee58740ad
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-25e7930e2b7b03c4db1f1653c1901a21
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-25e7930e2b7b03c4db1f1653c1901a21
-    projectPath: Temp\UnityTempFile-25e7930e2b7b03c4db1f1653c1901a21
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-271a23a885cbe6a4f81f6baabc67823e
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-271a23a885cbe6a4f81f6baabc67823e
-    projectPath: Temp\UnityTempFile-271a23a885cbe6a4f81f6baabc67823e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-28ec645d8adc0b049a8375d8150fa166
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-28ec645d8adc0b049a8375d8150fa166
-    projectPath: Temp\UnityTempFile-28ec645d8adc0b049a8375d8150fa166
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-2c37310da2a12b34fbc31509c1b786da
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-2c37310da2a12b34fbc31509c1b786da
-    projectPath: Temp\UnityTempFile-2c37310da2a12b34fbc31509c1b786da
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-2ec40c7b87820654fa46f0fc63274084
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-2ec40c7b87820654fa46f0fc63274084
-    projectPath: Temp\UnityTempFile-2ec40c7b87820654fa46f0fc63274084
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-33dddc9095d2c3d40935e59351df4fdb
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-33dddc9095d2c3d40935e59351df4fdb
-    projectPath: Temp\UnityTempFile-33dddc9095d2c3d40935e59351df4fdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3623e5ac4df1a3e4c826a4b56de64bce
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-3623e5ac4df1a3e4c826a4b56de64bce
-    projectPath: Temp\UnityTempFile-3623e5ac4df1a3e4c826a4b56de64bce
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3d8cb3e85c58e3d40990e3af5cbb5b2b
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-3d8cb3e85c58e3d40990e3af5cbb5b2b
-    projectPath: Temp\UnityTempFile-3d8cb3e85c58e3d40990e3af5cbb5b2b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4028474e8bc36b041a2f4632bd6cef16
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-4028474e8bc36b041a2f4632bd6cef16
-    projectPath: Temp\UnityTempFile-4028474e8bc36b041a2f4632bd6cef16
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4abff5c5dbbceb442a34fd1a981f2048
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-4abff5c5dbbceb442a34fd1a981f2048
-    projectPath: Temp\UnityTempFile-4abff5c5dbbceb442a34fd1a981f2048
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-543a7bd7666ef0e4b94758e0c2cccfa7
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-543a7bd7666ef0e4b94758e0c2cccfa7
-    projectPath: Temp\UnityTempFile-543a7bd7666ef0e4b94758e0c2cccfa7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-54a97d4c252c4ab4d9f3e4ef7e5bc3dc
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-54a97d4c252c4ab4d9f3e4ef7e5bc3dc
-    projectPath: Temp\UnityTempFile-54a97d4c252c4ab4d9f3e4ef7e5bc3dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-5cd0d5264563e9749841586750d4fcdd
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-5cd0d5264563e9749841586750d4fcdd
-    projectPath: Temp\UnityTempFile-5cd0d5264563e9749841586750d4fcdd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-5fd24625f3d6b5b4b8e131d3e26ef3d8
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-5fd24625f3d6b5b4b8e131d3e26ef3d8
-    projectPath: Temp\UnityTempFile-5fd24625f3d6b5b4b8e131d3e26ef3d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6359096a5fe473c4c88c483f1ff2ec68
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-6359096a5fe473c4c88c483f1ff2ec68
-    projectPath: Temp\UnityTempFile-6359096a5fe473c4c88c483f1ff2ec68
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-676ec5a42ffd4574688620a98601e4d2
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-676ec5a42ffd4574688620a98601e4d2
-    projectPath: Temp\UnityTempFile-676ec5a42ffd4574688620a98601e4d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-68bacbacc1ca8314992a684fd4b123f5
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-68bacbacc1ca8314992a684fd4b123f5
-    projectPath: Temp\UnityTempFile-68bacbacc1ca8314992a684fd4b123f5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-692b94b215868c447bdc64c7db479928
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-692b94b215868c447bdc64c7db479928
-    projectPath: Temp\UnityTempFile-692b94b215868c447bdc64c7db479928
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6b7fb0a95c95014499cb022253ee3b08
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-6b7fb0a95c95014499cb022253ee3b08
-    projectPath: Temp\UnityTempFile-6b7fb0a95c95014499cb022253ee3b08
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7ab245dadfbbcf146a17c14bc675e8a1
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-7ab245dadfbbcf146a17c14bc675e8a1
-    projectPath: Temp\UnityTempFile-7ab245dadfbbcf146a17c14bc675e8a1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-856343fa64fde7141abb99e0cce77f10
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-856343fa64fde7141abb99e0cce77f10
-    projectPath: Temp\UnityTempFile-856343fa64fde7141abb99e0cce77f10
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-91bbf718575485a48aa3fb9aece3ad9d
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-91bbf718575485a48aa3fb9aece3ad9d
-    projectPath: Temp\UnityTempFile-91bbf718575485a48aa3fb9aece3ad9d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-aa51e060a9a846044a655d8c55573a09
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-aa51e060a9a846044a655d8c55573a09
-    projectPath: Temp\UnityTempFile-aa51e060a9a846044a655d8c55573a09
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-abbc4b943c25b6244bedd9339bcb8b32
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-abbc4b943c25b6244bedd9339bcb8b32
-    projectPath: Temp\UnityTempFile-abbc4b943c25b6244bedd9339bcb8b32
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ae18ef7b758cdb14ea708ef5c3bd94b1
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-ae18ef7b758cdb14ea708ef5c3bd94b1
-    projectPath: Temp\UnityTempFile-ae18ef7b758cdb14ea708ef5c3bd94b1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b40e3c4f77d9e3443b52d0cc6e726239
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-b40e3c4f77d9e3443b52d0cc6e726239
-    projectPath: Temp\UnityTempFile-b40e3c4f77d9e3443b52d0cc6e726239
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b4f131518ff64f04fa0aa96c95ca8505
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-b4f131518ff64f04fa0aa96c95ca8505
-    projectPath: Temp\UnityTempFile-b4f131518ff64f04fa0aa96c95ca8505
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b51614098c604f148a7b233bdb72e61d
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-b51614098c604f148a7b233bdb72e61d
-    projectPath: Temp\UnityTempFile-b51614098c604f148a7b233bdb72e61d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bc0f9907bc5b5084f9d58aed811506fa
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-bc0f9907bc5b5084f9d58aed811506fa
-    projectPath: Temp\UnityTempFile-bc0f9907bc5b5084f9d58aed811506fa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c27c42531622fdd48a03c64fce287bcc
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-c27c42531622fdd48a03c64fce287bcc
-    projectPath: Temp\UnityTempFile-c27c42531622fdd48a03c64fce287bcc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c40541b8edc114446a0cabfebea89322
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-c40541b8edc114446a0cabfebea89322
-    projectPath: Temp\UnityTempFile-c40541b8edc114446a0cabfebea89322
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c6530aacfcf52a8498a21c5288711e62
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-c6530aacfcf52a8498a21c5288711e62
-    projectPath: Temp\UnityTempFile-c6530aacfcf52a8498a21c5288711e62
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d32b5fa3b924bd540a8d0d31799a1638
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-d32b5fa3b924bd540a8d0d31799a1638
-    projectPath: Temp\UnityTempFile-d32b5fa3b924bd540a8d0d31799a1638
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d3bf82d11036f3c4fabef1ff90e86fb3
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-d3bf82d11036f3c4fabef1ff90e86fb3
-    projectPath: Temp\UnityTempFile-d3bf82d11036f3c4fabef1ff90e86fb3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dde51367396a31346b2e7768c5372583
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-dde51367396a31346b2e7768c5372583
-    projectPath: Temp\UnityTempFile-dde51367396a31346b2e7768c5372583
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e3b6cd47cd5dd0e409498738dffe6bbd
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-e3b6cd47cd5dd0e409498738dffe6bbd
-    projectPath: Temp\UnityTempFile-e3b6cd47cd5dd0e409498738dffe6bbd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ea8ded84f00afdf488eeb2f46154c7a6
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-ea8ded84f00afdf488eeb2f46154c7a6
-    projectPath: Temp\UnityTempFile-ea8ded84f00afdf488eeb2f46154c7a6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f97c7b9cb559ba7419e97ff1331434f5
-    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-f97c7b9cb559ba7419e97ff1331434f5
-    projectPath: Temp\UnityTempFile-f97c7b9cb559ba7419e97ff1331434f5
+  - path: Temp\UnityTempFile-a476b671e27603c48bc34e99a0e38e10
+    fullPath: D:\Projekt\unity\Contact\Temp\UnityTempFile-a476b671e27603c48bc34e99a0e38e10
+    projectPath: Temp\UnityTempFile-a476b671e27603c48bc34e99a0e38e10
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
