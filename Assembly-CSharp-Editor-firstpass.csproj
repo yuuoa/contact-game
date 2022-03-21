@@ -47,8 +47,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
+     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
+     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Plugins\GitHub\Editor\ExtensionLoader.cs" />
+     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
      <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
      <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
  <Reference Include="UnityEngine">
@@ -752,6 +756,11 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B154B9D3-B153-97F7-6CD2-591574ADCBC8}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

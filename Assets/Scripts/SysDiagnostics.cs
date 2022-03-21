@@ -8,7 +8,6 @@ public class SysDiagnostics : MonoBehaviour
 {
     // private static PerformanceCounter cpuCounter;
     // private static PerformanceCounter ramCounter;
-    // Start is called before the first frame update
 
     protected PerformanceCounter cpuCounter;
     protected PerformanceCounter ramCounter;

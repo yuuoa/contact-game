@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Sword
   - Menu
+  - check
   layers:
   - Default
   - TransparentFX
