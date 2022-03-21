@@ -8,7 +8,7 @@ public class ButtonAction : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level1");
     }
 
     public void Quit()
