@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - SimpleRandomWalkDungeonGenerator
     - SimpleRandomWalkSO
     - Sword
+    - SysDiagnostics
     - SystemInformation
     - TilemapVisualizer
     - finisher
@@ -45,8 +46,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -104,45 +103,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2040}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2802}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 2874}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3028}
+      Script: {instanceID: 2938}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 3260}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 3508}
     - Class: 114
-      Script: {instanceID: 3548}
+      Script: {instanceID: 3546}
     - Class: 114
-      Script: {instanceID: 3876}
+      Script: {instanceID: 3550}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 3878}
     - Class: 114
-      Script: {instanceID: 4208}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4230}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 5286}
+      Script: {instanceID: 4232}
     - Class: 114
-      Script: {instanceID: 5342}
+      Script: {instanceID: 4756}
     - Class: 114
-      Script: {instanceID: 5808}
+      Script: {instanceID: 5290}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 24500}
+      Script: {instanceID: 5812}
+    - Class: 114
+      Script: {instanceID: 5942}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -191,17 +192,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 3028}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 3260}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -357,6 +358,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SysDiagnostics
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
@@ -833,6 +840,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SystemInformation
+  - hash:
+      serializedVersion: 2
       Hash: e6d75f1a9bc0c6f7085df0baa077e688
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1047,12 +1060,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SystemInformation
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
