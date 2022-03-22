@@ -971,7 +971,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 810967789}
-  - component: {fileID: 810967788}
   - component: {fileID: 810967790}
   m_Layer: 0
   m_Name: SystemInformation
@@ -980,18 +979,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &810967788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810967787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 604ef1b04f58ed045ba9c8678275e76d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &810967789
 Transform:
   m_ObjectHideFlags: 0
@@ -14949,9 +14936,9 @@ MonoBehaviour:
   tilemapVisualizer: {fileID: 2072839850}
   startPosition: {x: 0, y: 0}
   randomWalkParameters: {fileID: 11400000, guid: d19a4dd1c4d2aa649a1882baf1b0deb8, type: 2}
-  corridorLength: 20
-  corridorCount: 7
-  roomPercent: 0.59
+  corridorLength: 5
+  corridorCount: 5
+  roomPercent: 0.5
 --- !u!4 &1671293751
 Transform:
   m_ObjectHideFlags: 0

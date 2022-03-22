@@ -42,7 +42,7 @@ public class finisher : MonoBehaviour
             }
             else if (scene.name == "Level3")
             {
-                SceneManager.LoadScene("Level3");
+                SceneManager.LoadScene("BossLevel");
             }
         }
     }
