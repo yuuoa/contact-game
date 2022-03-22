@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public Animator animator;
     public float speed;
     public float lineOfSite;
     private Transform player;
@@ -27,17 +28,22 @@ public class EnemyMovement : MonoBehaviour
             if(distanceFromPlayer < lineOfSite && player != null)
             {
                 transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+                animator.SetFloat("Move", 1);
 
                 Vector3 characterScale = transform.localScale;
                 if (transform.position.x > player.position.x)
                 {
                     characterScale.x = -1;
                 }
-                else
+                else if (transform.position.x < player.position.x)
                 {
                     characterScale.x = 1;
                 }
                 transform.localScale = characterScale;
+            }
+            else
+            {
+                animator.SetFloat("Move", 0);
             }
         }
     }
@@ -54,12 +60,16 @@ public class EnemyMovement : MonoBehaviour
         {
             if (attackSpeed <= canAttack)
             {
+                animator.SetBool("Attack", true);
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 PlayerPrefs.SetFloat("Health", health);
                 canAttack = 0f;
             }
             else
+            {
+                animator.SetBool("Attack", false);
                 canAttack += Time.deltaTime;
+            }
         }
     }
 }

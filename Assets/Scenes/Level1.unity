@@ -1218,10 +1218,6 @@ PrefabInstance:
       propertyPath: GameOverUI
       value: 
       objectReference: {fileID: 696486374}
-    - target: {fileID: 3346861130137116008, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
-      propertyPath: PauseMenuUI
-      value: 
-      objectReference: {fileID: 2143270398}
     - target: {fileID: 8653694935861498317, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
       propertyPath: m_Name
       value: Circle

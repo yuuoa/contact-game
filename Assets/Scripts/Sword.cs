@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
-
+    public Animator EnemyAnimator;
     public PolygonCollider2D col;
 
     // Start is called before the first frame update
     void Start()
     {
         col.enabled = false;
+        EnemyAnimator = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyMovement>().animator;
     }
 
     // Update is called once per frame
@@ -33,6 +34,7 @@ public class Sword : MonoBehaviour
     {
         if (collider.gameObject.tag.Equals("Enemy"))
         {
+            EnemyAnimator.SetBool("Death", true);
             Destroy(collider.gameObject);
         }
     }
