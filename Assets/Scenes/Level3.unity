@@ -1224,7 +1224,7 @@ PrefabInstance:
       objectReference: {fileID: 2143270398}
     - target: {fileID: 8653694935861498317, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
       propertyPath: m_Name
-      value: Circle
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
@@ -14965,8 +14965,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d836bbda2b115b84485da5999b567ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Square: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
-  Flask: {fileID: 1705880783493699375, guid: 6c85750b10749b24c9cb8dcf63f841e0, type: 3}
+  Enemy: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
+  Powerup: {fileID: 1705880783493699375, guid: 6c85750b10749b24c9cb8dcf63f841e0, type: 3}
   Finish: {fileID: 4754578789402823498, guid: a871d5143baf331469dacc0b63bd60be, type: 3}
   tilemapVisualizer: {fileID: 2072839850}
 --- !u!4 &1690828675 stripped
@@ -15352,7 +15352,7 @@ MonoBehaviour:
   wallTilemap: {fileID: 1634440938}
   floorTile: {fileID: 11400000, guid: 471853985ed4b5242ad12af71ace0cf6, type: 2}
   wallTop: {fileID: 11400000, guid: 22c9f328675568942a63b2770a6a63dc, type: 2}
-  Square: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
+  Enemy: {fileID: 0}
   Finish: {fileID: 4754578789402823498, guid: a871d5143baf331469dacc0b63bd60be, type: 3}
 --- !u!4 &2072839851
 Transform:

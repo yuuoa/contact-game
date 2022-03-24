@@ -28,7 +28,7 @@ public class EnemyMovement : MonoBehaviour
             if(distanceFromPlayer < lineOfSite && player != null)
             {
                 transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
-                animator.SetFloat("Move", 1);
+                animator.SetFloat("EnemyMove", 1);
 
                 Vector3 characterScale = transform.localScale;
                 if (transform.position.x > player.position.x)
@@ -43,7 +43,7 @@ public class EnemyMovement : MonoBehaviour
             }
             else
             {
-                animator.SetFloat("Move", 0);
+                animator.SetFloat("EnemyMove", 0);
             }
         }
     }
@@ -60,16 +60,31 @@ public class EnemyMovement : MonoBehaviour
         {
             if (attackSpeed <= canAttack)
             {
-                animator.SetBool("Attack", true);
+                animator.SetBool("EnemyAttack", true);
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 PlayerPrefs.SetFloat("Health", health);
                 canAttack = 0f;
             }
             else
             {
-                animator.SetBool("Attack", false);
+                animator.SetBool("EnemyAttack", false);
                 canAttack += Time.deltaTime;
             }
+        }
+    }
+
+    public IEnumerator EnemyDeath()
+    {
+        yield return new WaitForSeconds(0.3f);
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag == "Sword")
+        {
+            animator.SetBool("EnemyDeath", true);
+            StartCoroutine(EnemyDeath());
+            Destroy(gameObject);
         }
     }
 }

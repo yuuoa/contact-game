@@ -9,6 +9,7 @@ TagManager:
   - Sword
   - Menu
   - check
+  - Powerup
   layers:
   - Default
   - TransparentFX

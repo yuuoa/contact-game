@@ -5,13 +5,15 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     public Animator EnemyAnimator;
+    public Animator animator;
     public PolygonCollider2D col;
+    private Transform player;
 
     // Start is called before the first frame update
     void Start()
     {
         col.enabled = false;
-        EnemyAnimator = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyMovement>().animator;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -19,23 +21,16 @@ public class Sword : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            col.enabled = true;
             StartCoroutine(Timing());
         }
     }
 
     public IEnumerator Timing()
     {
+        animator.SetBool("PlayerAttack", true);
+        col.enabled = true;
         yield return new WaitForSeconds(0.2f);
         col.enabled = false;
-    }
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.gameObject.tag.Equals("Enemy"))
-        {
-            EnemyAnimator.SetBool("Death", true);
-            Destroy(collider.gameObject);
-        }
+        animator.SetBool("PlayerAttack", false);
     }
 }

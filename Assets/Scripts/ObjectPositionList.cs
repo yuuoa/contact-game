@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ObjectPositionList : MonoBehaviour
 {
-    public GameObject Square;
-    public GameObject Flask;
+    public GameObject Enemy;
+    public GameObject Powerup;
     //public GameObject Circle;
     public GameObject Finish;
     private static ObjectPositionList _instance;
@@ -35,12 +35,12 @@ public class ObjectPositionList : MonoBehaviour
     }
     void Update()
     {
-        Square = GameObject.Find("Square");
-        Flask = GameObject.Find("Flask");
+        Enemy = GameObject.Find("Enemy");
+        Powerup = GameObject.Find("Powerup");
         //Circle = GameObject.Find("Circle");
         Finish = GameObject.Find("Finish");
-        Destroy(Square);
-        Destroy(Flask);
+        Destroy(Enemy);
+        Destroy(Powerup);
         //Destroy(Circle);
         Destroy(Finish);
     }
@@ -72,15 +72,15 @@ public class ObjectPositionList : MonoBehaviour
     {
         for (int SpawnDistance = 25; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
         {
-            Instantiate (Square, tilePositionList[SpawnDistance], Quaternion.identity);
+            Instantiate (Enemy, tilePositionList[SpawnDistance], Quaternion.identity);
         }
     }
 
-        public void SpawnFlask()
+        public void SpawnPowerup()
     {
         for (int SpawnDistance = 55; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 55)
         {
-            Instantiate (Flask, tilePositionList[SpawnDistance], Quaternion.identity);
+            Instantiate (Powerup, tilePositionList[SpawnDistance], Quaternion.identity);
         }
     }
 

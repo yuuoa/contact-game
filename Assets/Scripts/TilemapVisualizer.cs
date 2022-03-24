@@ -10,7 +10,7 @@ public class TilemapVisualizer : MonoBehaviour
     private Tilemap floorTilemap, wallTilemap;
     [SerializeField]
     private TileBase floorTile, wallTop;
-    public GameObject Square;
+    public GameObject Enemy;
     //public GameObject Circle;
     public GameObject Finish;
 
@@ -26,7 +26,7 @@ public class TilemapVisualizer : MonoBehaviour
             PaintSingleTile(tilemap, tile, position);
         }
 
-        Square = GameObject.Find("Square");
+        Enemy = GameObject.Find("Enemy");
         //Circle = GameObject.Find("Circle");
         Finish = GameObject.Find("Finish");
 
@@ -34,7 +34,7 @@ public class TilemapVisualizer : MonoBehaviour
         //ObjectPositionList.Instance.SpawnPlayer();
         ObjectPositionList.Instance.SpawnEnemy();
         ObjectPositionList.Instance.SpawnFinish();
-        ObjectPositionList.Instance.SpawnFlask();
+        ObjectPositionList.Instance.SpawnPowerup();
     }
 
     internal void PaintSingleBasicWall(Vector2Int position)

@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float MoveSpeed;
+    public Animator animator;
+    public float MoveSpeed = 5;
     public Rigidbody2D rb;
     private Vector2 MoveDirection;
     
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         MoveInput();
+        // AttackMove();
     }
 
     void FixedUpdate()
@@ -26,11 +28,38 @@ public class PlayerMovement : MonoBehaviour
         Move();
     }
 
+    // void AttackMove()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         animator.SetBool("PlayerAttack", true);
+    //         StartCoroutine(Timing());
+    //         animator.SetBool("PlayerAttack", false);
+    //     }
+    // }
+
+    public IEnumerator Timing()
+    {
+        MoveSpeed = 0;
+        yield return new WaitForSeconds(0.2f);
+        animator.SetFloat("PlayerMove", 0);
+        MoveSpeed = 5;
+    }
+
     void MoveInput()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         MoveDirection = new Vector2(moveX, moveY).normalized;
+
+        if (MoveSpeed != 0)
+        {
+            animator.SetFloat("PlayerMove", 1);
+        }
+        else 
+        {
+            animator.SetFloat("PlayerMove", 0);
+        }
 
         Vector3 characterScale = transform.localScale;
         if (Input.GetAxisRaw("Horizontal") < 0)
@@ -42,6 +71,11 @@ public class PlayerMovement : MonoBehaviour
             characterScale.x = 1;
         }
         transform.localScale = characterScale;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(Timing());
+        }
     }
 
     void Move()
