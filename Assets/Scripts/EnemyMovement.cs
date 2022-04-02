@@ -60,6 +60,7 @@ public class EnemyMovement : MonoBehaviour
         {
             if (attackSpeed <= canAttack)
             {
+                StartCoroutine(Timing());
                 animator.SetBool("EnemyAttack", true);
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 PlayerPrefs.SetFloat("Health", health);
@@ -71,6 +72,14 @@ public class EnemyMovement : MonoBehaviour
                 canAttack += Time.deltaTime;
             }
         }
+    }
+
+    public IEnumerator Timing()
+    {
+        speed = 0;
+        yield return new WaitForSeconds(0.2f);
+        animator.SetFloat("EnemyMove", 0);
+        speed = 5;
     }
 
     public IEnumerator EnemyDeath()
