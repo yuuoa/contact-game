@@ -99,6 +99,7 @@ public class EnemyMovement : MonoBehaviour
         if (collider.gameObject.tag == "Sword")
         {
             speed = 0;
+            StartCoroutine(EnemyDeath());
             animator.SetBool("EnemyDeath", true);
             StartCoroutine(EnemyDeath());
             Destroy(gameObject);
