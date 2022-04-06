@@ -23,13 +23,12 @@ public class PlayerHealth : MonoBehaviour
             Health = PlayerPrefs.GetFloat("Health");
         }
         info_Heart = GameObject.Find("UIHealth").GetComponent<Text>();
-        Health = PlayerPrefs.GetFloat("Health");
     }
 
     void Update()
     {
         info_Heart.text = "Health : " + Health.ToString();
-        // PlayerPrefs.SetFloat("Health", Health);
+        PlayerPrefs.SetFloat("Health", Health);
     }
     public void UpdateHealth(float mod)
     {
@@ -41,6 +40,19 @@ public class PlayerHealth : MonoBehaviour
             Health = 0f;
             Destroy(gameObject);
             GameOverUI.SetActive(true);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Finish")
+        {
+            scene = SceneManager.GetActiveScene();
+
+            if (scene.name == "Level1" || scene.name == "Level2")
+            {
+                PlayerPrefs.SetFloat("Health", Health);
+            }
         }
     }
 }

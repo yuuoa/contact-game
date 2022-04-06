@@ -12,7 +12,7 @@ public class finisher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
     }
 
     // Update is called once per frame

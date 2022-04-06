@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-
+    public float health;
     public static bool isPause = false;
     public GameObject PauseMenuUI;
+    void Start()
+    {
+        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -49,5 +53,6 @@ public class PauseMenu : MonoBehaviour
     public void Retry()
     {
         finisher.ResetScene();
+        health = 100f;
     }
 }

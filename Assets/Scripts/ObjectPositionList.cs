@@ -78,7 +78,7 @@ public class ObjectPositionList : MonoBehaviour
 
         public void SpawnPowerup()
     {
-        for (int SpawnDistance = 55; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 55)
+        for (int SpawnDistance = 80; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 80)
         {
             Instantiate (Powerup, tilePositionList[SpawnDistance], Quaternion.identity);
         }
