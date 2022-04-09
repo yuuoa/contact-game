@@ -22,18 +22,17 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        if (speed != 0)
+        {
+            animator.SetFloat("EnemyMove", 1);
+        }
+        else if (speed == 0)
+        {
+            animator.SetFloat("EnemyMove", 0);
+        }
+
         if (player != null)
         {
-            if (speed != 0)
-            {
-                animator.SetFloat("EnemyMove", 1);
-            }
-
-            else if (speed == 0)
-            {
-                animator.SetFloat("EnemyMove", 0);
-            }
-
             float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
             if(distanceFromPlayer < lineOfSite && player != null)
             {

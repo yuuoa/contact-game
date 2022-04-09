@@ -10,6 +10,7 @@ TagManager:
   - Menu
   - check
   - Powerup
+  - Key
   layers:
   - Default
   - TransparentFX

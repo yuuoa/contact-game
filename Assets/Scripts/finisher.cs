@@ -8,11 +8,13 @@ public class finisher : MonoBehaviour
 
     private Scene scene;
     private float health;
+    private bool KeyStatus;
 
     // Start is called before the first frame update
     void Start()
     {
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
+        KeyStatus = GameObject.FindGameObjectWithTag("Key").GetComponent<Key>().KeyAcquired;
     }
 
     // Update is called once per frame

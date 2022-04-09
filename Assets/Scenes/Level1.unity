@@ -235,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20905769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.82352877, y: 0.36601412, z: -20}
+  m_LocalPosition: {x: -0.6176465, y: 0.36601412, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 114331506}
@@ -882,6 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5c7d17888b06a489ad7afeae61d482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
   PauseMenuUI: {fileID: 2143270398}
 --- !u!1 &783254208
 GameObject:
@@ -5304,6 +5305,7 @@ MonoBehaviour:
   Enemy: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
   Powerup: {fileID: 1705880783493699375, guid: 6c85750b10749b24c9cb8dcf63f841e0, type: 3}
   Finish: {fileID: 4754578789402823498, guid: a871d5143baf331469dacc0b63bd60be, type: 3}
+  Key: {fileID: 0}
   tilemapVisualizer: {fileID: 2072839850}
 --- !u!4 &1690828675 stripped
 Transform:
@@ -5688,8 +5690,9 @@ MonoBehaviour:
   wallTilemap: {fileID: 1634440938}
   floorTile: {fileID: 11400000, guid: 471853985ed4b5242ad12af71ace0cf6, type: 2}
   wallTop: {fileID: 11400000, guid: 22c9f328675568942a63b2770a6a63dc, type: 2}
-  Enemy: {fileID: 0}
-  Finish: {fileID: 0}
+  Enemy: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
+  Finish: {fileID: 4754578789402823498, guid: a871d5143baf331469dacc0b63bd60be, type: 3}
+  Key: {fileID: 1996056431250943296, guid: 7885658271a72eb4882fce1309d8c4bd, type: 3}
 --- !u!4 &2072839851
 Transform:
   m_ObjectHideFlags: 0

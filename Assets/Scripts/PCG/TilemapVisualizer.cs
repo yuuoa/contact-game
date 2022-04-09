@@ -11,8 +11,8 @@ public class TilemapVisualizer : MonoBehaviour
     [SerializeField]
     private TileBase floorTile, wallTop;
     public GameObject Enemy;
-    //public GameObject Circle;
     public GameObject Finish;
+    public GameObject Key;
 
     public void PaintFloorTiles(IEnumerable<Vector2Int> floorPositions)
     {
@@ -27,14 +27,13 @@ public class TilemapVisualizer : MonoBehaviour
         }
 
         Enemy = GameObject.Find("Enemy");
-        //Circle = GameObject.Find("Circle");
         Finish = GameObject.Find("Finish");
 
         //ObjectPositionList.CheckAllPosition();
-        //ObjectPositionList.Instance.SpawnPlayer();
         ObjectPositionList.Instance.SpawnEnemy();
         ObjectPositionList.Instance.SpawnFinish();
         ObjectPositionList.Instance.SpawnPowerup();
+        ObjectPositionList.Instance.SpawnKey();
     }
 
     internal void PaintSingleBasicWall(Vector2Int position)

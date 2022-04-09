@@ -28,16 +28,6 @@ public class PlayerMovement : MonoBehaviour
         Move();
     }
 
-    // void AttackMove()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Space))
-    //     {
-    //         animator.SetBool("PlayerAttack", true);
-    //         StartCoroutine(Timing());
-    //         animator.SetBool("PlayerAttack", false);
-    //     }
-    // }
-
     public IEnumerator Timing()
     {
         MoveSpeed = 0;

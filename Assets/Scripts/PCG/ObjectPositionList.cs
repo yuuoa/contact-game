@@ -8,6 +8,7 @@ public class ObjectPositionList : MonoBehaviour
     public GameObject Powerup;
     //public GameObject Circle;
     public GameObject Finish;
+    public GameObject Key;
     private static ObjectPositionList _instance;
 
     public static ObjectPositionList Instance
@@ -31,18 +32,18 @@ public class ObjectPositionList : MonoBehaviour
 
     void Start()
     {
-        // CheckAllPosition();
+        Enemy = GameObject.Find("Enemy");
+        Powerup = GameObject.Find("Powerup");
+        Finish = GameObject.Find("Finish");
+        Key = GameObject.Find("Key");
+        Destroy(Enemy);
+        Destroy(Powerup);
+        Destroy(Finish);
+        Destroy(Key);
     }
     void Update()
     {
-        Enemy = GameObject.Find("Enemy");
-        Powerup = GameObject.Find("Powerup");
-        //Circle = GameObject.Find("Circle");
-        Finish = GameObject.Find("Finish");
-        Destroy(Enemy);
-        Destroy(Powerup);
-        //Destroy(Circle);
-        Destroy(Finish);
+
     }
 
     public void AddTilePosition(Vector3Int position)
@@ -82,6 +83,11 @@ public class ObjectPositionList : MonoBehaviour
         {
             Instantiate (Powerup, tilePositionList[SpawnDistance], Quaternion.identity);
         }
+    }
+
+    public void SpawnKey()
+    {
+        Instantiate (Key, tilePositionList[Mathf.Abs(tilePositionList.Count) / 2], Quaternion.identity);
     }
 
     public void SpawnFinish()
