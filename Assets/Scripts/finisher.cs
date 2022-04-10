@@ -9,12 +9,13 @@ public class finisher : MonoBehaviour
     private Scene scene;
     private float health;
     private bool KeyStatus;
+    public GameObject KeyRequiredDialog;
 
     // Start is called before the first frame update
     void Start()
     {
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
-        KeyStatus = GameObject.FindGameObjectWithTag("Key").GetComponent<Key>().KeyAcquired;
+        KeyStatus = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().KeyAcquired;
     }
 
     // Update is called once per frame
@@ -32,20 +33,34 @@ public class finisher : MonoBehaviour
     {
         if (collision.CompareTag("Player") || collision.CompareTag("Sword"))
         {
-            scene = SceneManager.GetActiveScene();
+            if (KeyStatus == true)
+            {
+                KeyRequiredDialog.SetActive(false);
+                scene = SceneManager.GetActiveScene();
+                if (scene.name == "Level1")
+                {
+                    SceneManager.LoadScene("Level2");
+                }
+                else if (scene.name == "Level2")
+                {
+                    SceneManager.LoadScene("Level3");
+                }
+                else if (scene.name == "Level3")
+                {
+                    SceneManager.LoadScene("BossLevel");
+                }
+            }
+            else
+            {
+                StartCoroutine(Timing());
 
-            if (scene.name == "Level1")
-            {
-                SceneManager.LoadScene("Level2");
-            }
-            else if (scene.name == "Level2")
-            {
-                SceneManager.LoadScene("Level3");
-            }
-            else if (scene.name == "Level3")
-            {
-                SceneManager.LoadScene("BossLevel");
             }
         }
+    }
+    public IEnumerator Timing()
+    {
+        KeyRequiredDialog.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        KeyRequiredDialog.SetActive(false);
     }
 }

@@ -47,23 +47,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ObjectPositionList.cs" />
+     <Compile Include="Assets\Scripts\PCG\ObjectPositionList.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\SysDiagnostics.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\chekpoint.cs" />
-     <Compile Include="Assets\Scripts\AbstractDungeonGenerator.cs" />
+     <Compile Include="Assets\Scripts\PCG\AbstractDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\ButtonAction.cs" />
-     <Compile Include="Assets\Scripts\CorridorFirstDungeonGenerator.cs" />
+     <Compile Include="Assets\Scripts\PCG\CorridorFirstDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Flask.cs" />
      <Compile Include="Assets\Scripts\Sword.cs" />
-     <Compile Include="Assets\Scripts\TilemapVisualizer.cs" />
+     <Compile Include="Assets\Scripts\PCG\TilemapVisualizer.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\Scripts\ProceduralGenerationAlgorithms.cs" />
-     <Compile Include="Assets\Scripts\WallGenerator.cs" />
+     <Compile Include="Assets\Scripts\PCG\ProceduralGenerationAlgorithms.cs" />
+     <Compile Include="Assets\Scripts\PCG\WallGenerator.cs" />
      <Compile Include="Assets\Scripts\SystemInformation.cs" />
+     <Compile Include="Assets\Key.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\SimpleRandomWalkDungeonGenerator.cs" />
+     <Compile Include="Assets\Scripts\PCG\SimpleRandomWalkDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\PlayerPrologue.cs" />
      <Compile Include="Assets\Scripts\Data\SimpleRandomWalkSO.cs" />
      <Compile Include="Assets\Scripts\finisher.cs" />

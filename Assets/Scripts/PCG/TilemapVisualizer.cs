@@ -10,9 +10,6 @@ public class TilemapVisualizer : MonoBehaviour
     private Tilemap floorTilemap, wallTilemap;
     [SerializeField]
     private TileBase floorTile, wallTop;
-    public GameObject Enemy;
-    public GameObject Finish;
-    public GameObject Key;
 
     public void PaintFloorTiles(IEnumerable<Vector2Int> floorPositions)
     {
@@ -25,9 +22,6 @@ public class TilemapVisualizer : MonoBehaviour
         {
             PaintSingleTile(tilemap, tile, position);
         }
-
-        Enemy = GameObject.Find("Enemy");
-        Finish = GameObject.Find("Finish");
 
         //ObjectPositionList.CheckAllPosition();
         ObjectPositionList.Instance.SpawnEnemy();

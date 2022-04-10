@@ -6,14 +6,12 @@ public class Flask : MonoBehaviour
 {
 
     private float HealAmount = 10f;
-    private Transform player;
     private float health;
 
     // Start is called before the first frame update
     void Start()
     {
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
