@@ -15,4 +15,12 @@ public class Key : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

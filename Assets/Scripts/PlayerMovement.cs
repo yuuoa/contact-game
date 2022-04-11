@@ -9,20 +9,17 @@ public class PlayerMovement : MonoBehaviour
     public float MoveSpeed = 5;
     public Rigidbody2D rb;
     private Vector2 MoveDirection;
-    public bool KeyAcquired;
-    public GameObject KeyObject;
 
     // Start is called before the first frame update
     void Start()
     {
-        KeyAcquired = false;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         MoveInput();
-        Debug.Log(KeyAcquired);
     }
 
     void FixedUpdate()
@@ -63,14 +60,5 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         rb.velocity = new Vector2(MoveDirection.x * MoveSpeed, MoveDirection.y * MoveSpeed);
-    }
-
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Key")
-        {
-            KeyAcquired = true;
-            DestroyImmediate (KeyObject, true);
-        }
     }
 }

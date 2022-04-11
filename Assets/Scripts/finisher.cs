@@ -8,14 +8,14 @@ public class finisher : MonoBehaviour
 
     private Scene scene;
     private float health;
-    private bool KeyStatus;
     public GameObject KeyRequiredDialog;
+    public GameObject KeyObject;
 
     // Start is called before the first frame update
     void Start()
     {
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
-        KeyStatus = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().KeyAcquired;
+        KeyObject = GameObject.FindWithTag("Key");
     }
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class finisher : MonoBehaviour
     {
         if (collision.CompareTag("Player") || collision.CompareTag("Sword"))
         {
-            if (KeyStatus == true)
+            if (KeyObject == null)
             {
                 KeyRequiredDialog.SetActive(false);
                 scene = SceneManager.GetActiveScene();
@@ -50,10 +50,9 @@ public class finisher : MonoBehaviour
                     SceneManager.LoadScene("BossLevel");
                 }
             }
-            else
+            else if (KeyObject != null)
             {
                 StartCoroutine(Timing());
-
             }
         }
     }
