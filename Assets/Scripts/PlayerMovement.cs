@@ -9,14 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float MoveSpeed = 5;
     public Rigidbody2D rb;
     private Vector2 MoveDirection;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         MoveInput();
@@ -40,21 +33,32 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         MoveDirection = new Vector2(moveX, moveY).normalized;
-
-        if (MoveSpeed != 0)
-            animator.SetFloat("PlayerMove", 1);
-        else 
-            animator.SetFloat("PlayerMove", 0);
-
         Vector3 characterScale = transform.localScale;
+
         if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            animator.SetFloat("PlayerMove", 1);
             characterScale.x = -1;
-        if (Input.GetAxisRaw("Horizontal") > 0)
+        }
+        else if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            animator.SetFloat("PlayerMove", 1);
             characterScale.x = 1;
+        }
+        else if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Vertical") > 0)
+        {
+            animator.SetFloat("PlayerMove", 1);
+        }
+        else if (Input.GetAxisRaw("Horizontal") == 0)
+        {
+            animator.SetFloat("PlayerMove", 0);
+        }
         transform.localScale = characterScale;
 
         if (Input.GetKeyDown(KeyCode.Space))
+        {
             StartCoroutine(Timing());
+        }
     }
 
     void Move()

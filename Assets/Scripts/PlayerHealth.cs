@@ -33,11 +33,14 @@ public class PlayerHealth : MonoBehaviour
         info_Heart.text = "Health : " + Health.ToString();
         PlayerPrefs.SetFloat("Health", Health);
     }
+    
     public void UpdateHealth(float mod)
     {
         Health += mod;
         if (Health > MaxHealth)
+        {
             Health = MaxHealth;
+        }
         else if (Health <= 0f) 
         {
             Health = 0f;

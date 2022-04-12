@@ -292,8 +292,6 @@ MonoBehaviour:
   animator: {fileID: 3053793893500592385}
   MoveSpeed: 5
   rb: {fileID: 4255780790824027321}
-  KeyAcquired: 0
-  KeyObject: {fileID: 1996056431250943296, guid: 7885658271a72eb4882fce1309d8c4bd, type: 3}
 --- !u!114 &3346861130137116008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5635b25cc2fa2324689921f153c0a969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 3053793893500592385}
   Health: 100
   PlayerMoveSpeed: 0
   GameOverUI: {fileID: 0}

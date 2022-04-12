@@ -171,4 +171,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e8f27aaa8cecd4a917164c04442b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeyAcquired: 0
+  IsAcquired: {fileID: 0}
+  IsNotAcquired: {fileID: 0}

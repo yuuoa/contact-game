@@ -4,20 +4,12 @@ using UnityEngine;
 
 public class Flask : MonoBehaviour
 {
-
     private float HealAmount = 10f;
     private float health;
 
-    // Start is called before the first frame update
     void Start()
     {
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void OnCollisionEnter2D(Collision2D other)

@@ -8,7 +8,6 @@ public class EnemyMovement : MonoBehaviour
     public float speed;
     public float lineOfSite;
     private Transform player;
-
     private float attackDamage = 10f;
     private float attackSpeed = 1f;
     private float canAttack;
@@ -22,15 +21,6 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        if (speed != 0)
-        {
-            animator.SetFloat("EnemyMove", 1);
-        }
-        else if (speed == 0)
-        {
-            animator.SetFloat("EnemyMove", 0);
-        }
-
         if (player != null)
         {
             float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
@@ -41,13 +31,19 @@ public class EnemyMovement : MonoBehaviour
                 Vector3 characterScale = transform.localScale;
                 if (transform.position.x > player.position.x)
                 {
+                    animator.SetFloat("EnemyMove", 1);
                     characterScale.x = -1;
                 }
                 else if (transform.position.x < player.position.x)
                 {
+                    animator.SetFloat("EnemyMove", 1);
                     characterScale.x = 1;
                 }
                 transform.localScale = characterScale;
+            }
+            else
+            {
+                animator.SetFloat("EnemyMove", 0);
             }
         }
     }

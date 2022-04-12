@@ -5,23 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class finisher : MonoBehaviour
 {
-
     private Scene scene;
     private float health;
     public GameObject KeyRequiredDialog;
     public GameObject KeyObject;
 
-    // Start is called before the first frame update
     void Start()
     {
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
         KeyObject = GameObject.FindWithTag("Key");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public static void ResetScene()
@@ -31,7 +23,7 @@ public class finisher : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") || collision.CompareTag("Sword"))
+        if (collision.CompareTag("Player"))
         {
             if (KeyObject == null)
             {
@@ -56,6 +48,7 @@ public class finisher : MonoBehaviour
             }
         }
     }
+
     public IEnumerator Timing()
     {
         KeyRequiredDialog.SetActive(true);

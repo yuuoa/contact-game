@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-04-11T17:16:02.667+07:00
-  initializedAtString: 2022-04-11T17:16:02.667+07:00
+  lastUpdatedAtString: 2022-04-12T18:42:19.663+07:00
+  initializedAtString: 2022-04-12T12:38:06.771+07:00
   currentGitRemote:
     name: origin
     url: https://github.com/yuuoa/contact-game

@@ -6,10 +6,11 @@ public class ObjectPositionList : MonoBehaviour
 {
     public GameObject Enemy;
     public GameObject Powerup;
-    //public GameObject Circle;
     public GameObject Finish;
     public GameObject Key;
     private static ObjectPositionList _instance;
+    [SerializeField] private TilemapVisualizer tilemapVisualizer;
+    private List<Vector3Int> tilePositionList = new List<Vector3Int>();
 
     public static ObjectPositionList Instance
     {
@@ -19,16 +20,9 @@ public class ObjectPositionList : MonoBehaviour
             {
                 _instance = FindObjectOfType<ObjectPositionList>();
             }
-
             return _instance;
         }
     }
-    
-    [SerializeField] private TilemapVisualizer tilemapVisualizer;
-
-    private List<Vector3Int> tilePositionList = new List<Vector3Int>();
-
-    // Update is called once per frame
 
     void Start()
     {
@@ -40,10 +34,6 @@ public class ObjectPositionList : MonoBehaviour
         Destroy(Powerup);
         Destroy(Finish);
         Destroy(Key);
-    }
-    void Update()
-    {
-
     }
 
     public void AddTilePosition(Vector3Int position)
@@ -61,11 +51,12 @@ public class ObjectPositionList : MonoBehaviour
         return tilePositionList[index];
     }
 
-    public void CheckAllPosition(){
-       foreach(Vector3Int item in tilePositionList){
+    public void CheckAllPosition()
+    {
+       foreach(Vector3Int item in tilePositionList)
+       {
            Debug.Log(item);
        }
-
        Debug.Log("Last Pos = " + tilePositionList[tilePositionList.Count - 1]);
     }
 
@@ -77,7 +68,7 @@ public class ObjectPositionList : MonoBehaviour
         }
     }
 
-        public void SpawnPowerup()
+    public void SpawnPowerup()
     {
         for (int SpawnDistance = 80; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 80)
         {
