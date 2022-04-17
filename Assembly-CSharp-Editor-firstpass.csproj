@@ -49,12 +49,8 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
      <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
-     <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
      <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
-     <Compile Include="Assets\Plugins\GitHub\Editor\ExtensionLoader.cs" />
      <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
-     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
-     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -283,9 +279,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="GitHub.Logging">
- <HintPath>D:/Projekt/unity/Contact/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
  <HintPath>D:/Projekt/unity/Contact/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
@@ -295,20 +288,8 @@
  <Reference Include="unityplastic">
  <HintPath>D:/Projekt/unity/Contact/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
- <Reference Include="sfw.net">
- <HintPath>D:/Projekt/unity/Contact/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
- </Reference>
  <Reference Include="log4netPlastic">
  <HintPath>D:/Projekt/unity/Contact/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Unity.45">
- <HintPath>D:/Projekt/unity/Contact/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.UnityShim">
- <HintPath>D:/Projekt/unity/Contact/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Api.45">
- <HintPath>D:/Projekt/unity/Contact/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Projekt/unity/Contact/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

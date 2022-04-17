@@ -46,6 +46,7 @@ public class PlayerHealth : MonoBehaviour
             Health = 0f;
             StartCoroutine(PlayerDeath());
             Destroy(gameObject);
+            PlayerMoveSpeed = 0;
             GameOverUI.SetActive(true);
         }
     }

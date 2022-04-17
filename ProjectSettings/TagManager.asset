@@ -8,9 +8,11 @@ TagManager:
   - Enemy
   - Sword
   - Menu
-  - check
   - Powerup
   - Key
+  - Pass
+  - Check
+  - Dialogue
   layers:
   - Default
   - TransparentFX
