@@ -26,15 +26,32 @@ public class ObjectPositionList : MonoBehaviour
 
     void Start()
     {
-        Enemy = GameObject.Find("Enemy");
-        Powerup = GameObject.Find("Powerup");
-        Finish = GameObject.Find("Finish");
-        Key = GameObject.Find("Key");
-        Destroy(Enemy);
-        Destroy(Powerup);
-        Destroy(Finish);
-        Destroy(Key);
+        Enemy = GameObject.FindGameObjectWithTag("Enemy");
+        Powerup = GameObject.FindGameObjectWithTag("Powerup");
+        Finish = GameObject.FindGameObjectWithTag("Finish");
+        Key = GameObject.FindGameObjectWithTag("Key");
+
+        // for (int AllTiles = 1; AllTiles < tilePositionList.Count-1; AllTiles++)
+        // {
+        //     Destroy(Enemy);
+        //     Destroy(Powerup);
+        //     Destroy(Finish);
+        //     Destroy(Key);
+        // }
+        // DeleteAll();
     }
+    // public void DeleteAll()
+    // {
+    //     GameObject[] AllEnemy = GameObject.FindGameObjectsWithTag("Enemy");
+    //     foreach (GameObject Enemy in AllEnemy)
+    //     {
+    //         Destroy(Enemy);
+    //     }
+        // foreach (GameObject E in GameObject.FindGameObjectsWithTag("Enemy"))
+        // {
+        //     Destroy(E);
+        // }
+    //  }
 
     public void AddTilePosition(Vector3Int position)
     {
@@ -62,7 +79,7 @@ public class ObjectPositionList : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        for (int SpawnDistance = 25; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
+        for (int SpawnDistance = 25; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
         {
             Instantiate (Enemy, tilePositionList[SpawnDistance], Quaternion.identity);
         }
@@ -70,7 +87,7 @@ public class ObjectPositionList : MonoBehaviour
 
     public void SpawnPowerup()
     {
-        for (int SpawnDistance = 80; SpawnDistance <= Mathf.Abs(tilePositionList.Count); SpawnDistance+= 80)
+        for (int SpawnDistance = 80; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 80)
         {
             Instantiate (Powerup, tilePositionList[SpawnDistance], Quaternion.identity);
         }
