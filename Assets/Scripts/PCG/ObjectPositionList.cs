@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class ObjectPositionList : MonoBehaviour
 {
-    public GameObject Enemy;
-    public GameObject Powerup;
-    public GameObject Finish;
-    public GameObject Key;
+    public GameObject Enemy, Powerup, Finish, Key;
     private static ObjectPositionList _instance;
-    [SerializeField] private TilemapVisualizer tilemapVisualizer;
+    private TilemapVisualizer tilemapVisualizer;
     private List<Vector3Int> tilePositionList = new List<Vector3Int>();
 
     public static ObjectPositionList Instance
@@ -23,35 +20,6 @@ public class ObjectPositionList : MonoBehaviour
             return _instance;
         }
     }
-
-    void Start()
-    {
-        Enemy = GameObject.FindGameObjectWithTag("Enemy");
-        Powerup = GameObject.FindGameObjectWithTag("Powerup");
-        Finish = GameObject.FindGameObjectWithTag("Finish");
-        Key = GameObject.FindGameObjectWithTag("Key");
-
-        // for (int AllTiles = 1; AllTiles < tilePositionList.Count-1; AllTiles++)
-        // {
-        //     Destroy(Enemy);
-        //     Destroy(Powerup);
-        //     Destroy(Finish);
-        //     Destroy(Key);
-        // }
-        // DeleteAll();
-    }
-    // public void DeleteAll()
-    // {
-    //     GameObject[] AllEnemy = GameObject.FindGameObjectsWithTag("Enemy");
-    //     foreach (GameObject Enemy in AllEnemy)
-    //     {
-    //         Destroy(Enemy);
-    //     }
-        // foreach (GameObject E in GameObject.FindGameObjectsWithTag("Enemy"))
-        // {
-        //     Destroy(E);
-        // }
-    //  }
 
     public void AddTilePosition(Vector3Int position)
     {
@@ -78,7 +46,7 @@ public class ObjectPositionList : MonoBehaviour
     }
 
     public void SpawnEnemy()
-    {
+    {   
         for (int SpawnDistance = 25; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
         {
             Instantiate (Enemy, tilePositionList[SpawnDistance], Quaternion.identity);

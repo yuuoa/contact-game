@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerPrologue : MonoBehaviour
 {
 
-    public float speed;
-    public float lineOfSite;  
+    public float speed, lineOfSite;  
     private Transform check;
 
     void Start()

@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
-    public Animator EnemyAnimator;
-    public Animator animator;
+    public Animator EnemyAnimator, animator;
     public PolygonCollider2D col;
     private Transform player;
 

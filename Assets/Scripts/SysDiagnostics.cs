@@ -9,8 +9,7 @@ public class SysDiagnostics : MonoBehaviour
     // private static PerformanceCounter cpuCounter;
     // private static PerformanceCounter ramCounter;
 
-    protected PerformanceCounter cpuCounter;
-    protected PerformanceCounter ramCounter;
+    protected PerformanceCounter cpuCounter, ramCounter;
 
     Text Diag;
 

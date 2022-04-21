@@ -53,7 +53,6 @@
      <Compile Include="Assets\Scripts\SysDiagnostics.cs" />
      <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\chekpoint.cs" />
      <Compile Include="Assets\Scripts\PCG\AbstractDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\ButtonAction.cs" />
      <Compile Include="Assets\Scripts\PCG\CorridorFirstDungeonGenerator.cs" />
@@ -75,7 +74,6 @@
      <Compile Include="Assets\Scripts\Data\SimpleRandomWalkSO.cs" />
      <Compile Include="Assets\Scripts\finisher.cs" />
      <None Include="Assets\Sprites\Dungeon\character and tileset\Licence.txt" />
-     <None Include="Assets\SystemInformation.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

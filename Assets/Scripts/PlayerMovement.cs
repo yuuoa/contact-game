@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
+    private float moveX, moveY;
     public float MoveSpeed = 5;
     public Rigidbody2D rb;
     private Vector2 MoveDirection;
+    [SerializeField] GameObject Sword;
     
     void Update()
     {
@@ -22,16 +24,15 @@ public class PlayerMovement : MonoBehaviour
 
     public IEnumerator Timing()
     {
-        MoveSpeed = 0;
+        animator.SetBool("PlayerAttack", true);
         yield return new WaitForSeconds(0.2f);
-        animator.SetFloat("PlayerMove", 0);
-        MoveSpeed = 5;
+        animator.SetBool("PlayerAttack", false);
     }
 
     void MoveInput()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        moveX = Input.GetAxisRaw("Horizontal");
+        moveY = Input.GetAxisRaw("Vertical");
         MoveDirection = new Vector2(moveX, moveY).normalized;
         Vector3 characterScale = transform.localScale;
 
@@ -64,5 +65,20 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         rb.velocity = new Vector2(MoveDirection.x * MoveSpeed, MoveDirection.y * MoveSpeed);
+    }
+
+    public void PlayerDeath()
+    {
+        StartCoroutine(PlayerDeathScene());
+    }
+
+    public IEnumerator PlayerDeathScene()
+    {
+        MoveSpeed = 0;
+        Sword.SetActive(false);
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        animator.SetBool("PlayerDeath", true);
+        yield return new WaitForSeconds(0.3f);
+        Destroy(gameObject);
     }
 }

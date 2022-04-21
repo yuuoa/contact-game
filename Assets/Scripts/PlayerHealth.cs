@@ -8,11 +8,12 @@ public class PlayerHealth : MonoBehaviour
 {
     public Animator animator;
     private Scene scene;
-    public float Health;
-    public float PlayerMoveSpeed;
+    public float Health, PlayerMoveSpeed;
     private float MaxHealth = 100f;
     Text info_Heart;
     public GameObject GameOverUI;
+    public Rigidbody2D rb;
+    public GameObject Sword;
     void Start()
     {
         PlayerMoveSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().MoveSpeed;
@@ -45,8 +46,6 @@ public class PlayerHealth : MonoBehaviour
         {
             Health = 0f;
             StartCoroutine(PlayerDeath());
-            Destroy(gameObject);
-            PlayerMoveSpeed = 0;
             GameOverUI.SetActive(true);
         }
     }
@@ -54,8 +53,11 @@ public class PlayerHealth : MonoBehaviour
     public IEnumerator PlayerDeath()
     {
         PlayerMoveSpeed = 0;
+        Sword.SetActive(false);
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
         animator.SetBool("PlayerDeath", true);
         yield return new WaitForSeconds(0.3f);
+        Destroy(gameObject);
     }
 
     void OnTriggerEnter2D(Collider2D collision)

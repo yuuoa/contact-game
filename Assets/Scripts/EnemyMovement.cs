@@ -5,18 +5,16 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public Animator animator;
-    public float speed;
-    public float lineOfSite;
+    public float speed, lineOfSite, canAttack;
     private Transform player;
     private float attackDamage = 10f;
     private float attackSpeed = 1f;
-    private float canAttack;
-    private float health;
+    public Rigidbody2D rb;
+    [SerializeField] GameObject Sword;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
     }
 
     void Update()
@@ -53,16 +51,14 @@ public class EnemyMovement : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             animator.SetFloat("EnemyMove", 0);
-            StartCoroutine(Timing());
             if (attackSpeed <= canAttack)
             {
+                StartCoroutine(Timing());
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
-                PlayerPrefs.SetFloat("Health", health);
                 canAttack = 0f;
             }
             else
             {
-                animator.SetBool("EnemyAttack", false);
                 canAttack += Time.deltaTime;
             }
         }
@@ -70,28 +66,26 @@ public class EnemyMovement : MonoBehaviour
 
     public IEnumerator Timing()
     {
-        speed = 0;
-        animator.SetFloat("EnemyMove", 0);
         animator.SetBool("EnemyAttack", true);
         yield return new WaitForSeconds(0.2f);
         animator.SetBool("EnemyAttack", false);
-        speed = 5;
     }
 
     public IEnumerator EnemyDeath()
     {
+        speed = 0;
+        Sword.SetActive(false);
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        animator.SetBool("EnemyDeath", true);
         yield return new WaitForSeconds(0.3f);
+        Destroy(gameObject);
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Sword")
         {
-            speed = 0;
             StartCoroutine(EnemyDeath());
-            animator.SetBool("EnemyDeath", true);
-            StartCoroutine(EnemyDeath());
-            Destroy(gameObject);
         }
     }
 }

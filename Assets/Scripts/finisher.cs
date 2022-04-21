@@ -7,8 +7,7 @@ public class finisher : MonoBehaviour
 {
     private Scene scene;
     private float health;
-    public GameObject KeyRequiredDialog;
-    public GameObject KeyObject;
+    public GameObject KeyRequiredDialog, KeyObject;
 
     void Start()
     {

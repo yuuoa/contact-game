@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
     private Queue<string> sentences;
-    public Text NameText;
-    public Text DialogueText;
+    public Text NameText, DialogueText;
     public Animator animator;
     public bool EndOfDialogue;
 

@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class KeyStatus : MonoBehaviour
 {
-    public GameObject IsAcquired;
-    public GameObject IsNotAcquired;
-    public GameObject KeyObject;
+    public GameObject IsAcquired, IsNotAcquired, KeyObject;
     void Update()
     {
         KeyObject = GameObject.FindWithTag("Key");
