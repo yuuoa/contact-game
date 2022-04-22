@@ -10,7 +10,8 @@ public class EnemyMovement : MonoBehaviour
     private float attackDamage = 10f;
     private float attackSpeed = 1f;
     public Rigidbody2D rb;
-    [SerializeField] GameObject Sword;
+    [SerializeField] private GameObject Sword;
+    [SerializeField] private PolygonCollider2D col;
 
     void Start()
     {
@@ -75,6 +76,7 @@ public class EnemyMovement : MonoBehaviour
     {
         speed = 0;
         Sword.SetActive(false);
+        col.enabled = false;
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
         animator.SetBool("EnemyDeath", true);
         yield return new WaitForSeconds(0.3f);

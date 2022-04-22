@@ -28,11 +28,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -86,25 +83,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 646}
-    - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 648}
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1808}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 2004}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2082}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2292}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2680}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2730}
+    - Class: 114
+      Script: {instanceID: 2752}
     - Class: 114
       Script: {instanceID: 2814}
     - Class: 114
@@ -189,25 +186,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 646}
-    - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 648}
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1808}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 2004}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2082}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2292}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2680}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2730}
+    - Class: 114
+      Script: {instanceID: 2752}
     - Class: 114
       Script: {instanceID: 2814}
     - Class: 114
@@ -296,25 +293,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 646}
-    - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 648}
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1808}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 2004}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2082}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2292}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2680}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2730}
+    - Class: 114
+      Script: {instanceID: 2752}
     - Class: 114
       Script: {instanceID: 2814}
     - Class: 114
@@ -403,25 +400,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 646}
-    - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 648}
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1808}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 2004}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2082}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2292}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2680}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2730}
+    - Class: 114
+      Script: {instanceID: 2752}
     - Class: 114
       Script: {instanceID: 2814}
     - Class: 114
@@ -500,13 +497,13 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1478}
-    - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 2292}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2294}
+    - Class: 114
+      Script: {instanceID: 2730}
     - Class: 114
       Script: {instanceID: 2906}
     - Class: 114
@@ -561,9 +558,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2004}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2752}
     - Class: 114
       Script: {instanceID: 3750}
     - Class: 114
@@ -703,7 +700,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 11ee09b83b9ed03a1a195d573a5b0413
+      Hash: 4821e2833c7bc52051d933667fc0c3e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectPositionList
@@ -715,7 +712,7 @@ ScriptsOnlyBuild:
     className: CinemachineCameraOffset
   - hash:
       serializedVersion: 2
-      Hash: 2af3ef066bce68d3b073bc3d7eb3eddf
+      Hash: 675198f43c2eb578d051784ca3223b90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyMovement
@@ -829,16 +826,10 @@ ScriptsOnlyBuild:
     className: CinemachineSameAsFollowTarget
   - hash:
       serializedVersion: 2
-      Hash: f68b1d488fd091bdab3641faff5860b1
+      Hash: e08a2ecd5f8a771bce74a6a180614c80
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerHealth
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: chekpoint
   - hash:
       serializedVersion: 2
       Hash: c8f1a224e0a43adc56c91864de822dd3
@@ -1363,7 +1354,7 @@ ScriptsOnlyBuild:
     className: PixelPerfectCamera
   - hash:
       serializedVersion: 2
-      Hash: 08a852cb4a9d9db473bc95e91241fabe
+      Hash: 5c62c639529f5462882056a2f94e8623
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement

@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 MoveDirection;
     [SerializeField] GameObject Sword;
+    [SerializeField] PolygonCollider2D col;
     
     void Update()
     {
@@ -76,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
     {
         MoveSpeed = 0;
         Sword.SetActive(false);
+        col.enabled = false;
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
         animator.SetBool("PlayerDeath", true);
         yield return new WaitForSeconds(0.3f);
