@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public float health;
+    private float health;
     public static bool isPause = false;
     public GameObject PauseMenuUI;
     void Start()
     {
-        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
+        health = GameObject.Find("Player").GetComponent<PlayerHealth>().Health;
     }
     
     void Update()

@@ -11,7 +11,7 @@ public class finisher : MonoBehaviour
 
     void Start()
     {
-        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
+        health = GameObject.Find("Player").GetComponent<PlayerHealth>().Health;
         KeyObject = GameObject.FindWithTag("Key");
     }
 

@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Dialogue\CheckpointFollower.cs" />
      <Compile Include="Assets\Scripts\PCG\ObjectPositionList.cs" />
+     <Compile Include="Assets\Scripts\BossMovement.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\SysDiagnostics.cs" />
      <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
@@ -60,7 +61,7 @@
      <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\Sword.cs" />
      <Compile Include="Assets\Scripts\KeyStatus.cs" />
-     <Compile Include="Assets\DialogueCheckpoint.cs" />
+     <Compile Include="Assets\Scripts\Dialogue\DialogueCheckpoint.cs" />
      <Compile Include="Assets\Scripts\PCG\TilemapVisualizer.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />

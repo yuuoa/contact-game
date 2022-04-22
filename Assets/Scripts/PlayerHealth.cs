@@ -10,13 +10,13 @@ public class PlayerHealth : MonoBehaviour
     private Scene scene;
     public float Health, PlayerMoveSpeed;
     private float MaxHealth = 100f;
-    Text info_Heart;
+    public Text InfoHealth;
     public GameObject GameOverUI;
     public Rigidbody2D rb;
     public GameObject Sword;
     void Start()
     {
-        PlayerMoveSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().MoveSpeed;
+        PlayerMoveSpeed = GetComponent<PlayerMovement>().MoveSpeed;
         scene = SceneManager.GetActiveScene();
         if (scene.name == "Level1")
         {
@@ -26,12 +26,12 @@ public class PlayerHealth : MonoBehaviour
         {
             Health = PlayerPrefs.GetFloat("Health");
         }
-        info_Heart = GameObject.Find("UIHealth").GetComponent<Text>();
+        InfoHealth = GameObject.Find("UIHealth").GetComponent<Text>();
     }
 
     void Update()
     {
-        info_Heart.text = "Health : " + Health.ToString();
+        InfoHealth.text = "Health : " + Health.ToString();
         PlayerPrefs.SetFloat("Health", Health);
     }
     

@@ -15,7 +15,7 @@ public class BossMovement : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.Find("Player").transform;
         DoorOpened.SetActive(false);
         DoorClosed.SetActive(true);
     }

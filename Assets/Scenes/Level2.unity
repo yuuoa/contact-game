@@ -628,6 +628,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3346861130137116008, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
+      propertyPath: info_Heart
+      value: 
+      objectReference: {fileID: 1068063644}
+    - target: {fileID: 3346861130137116008, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
       propertyPath: PauseMenuUI
       value: 
       objectReference: {fileID: 0}
@@ -734,6 +738,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a08036b01fc6af941ac318e5a407c0f9, type: 3}
+--- !u!114 &1068063644 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7869006032757980333, guid: a08036b01fc6af941ac318e5a407c0f9, type: 3}
+  m_PrefabInstance: {fileID: 1068063643}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1441489759
 GameObject:
   m_ObjectHideFlags: 0
