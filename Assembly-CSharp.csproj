@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PCG\ProceduralGenerationAlgorithms.cs" />
+     <Compile Include="Assets\Scripts\Stopwatch.cs" />
      <Compile Include="Assets\Scripts\PCG\WallGenerator.cs" />
      <Compile Include="Assets\Scripts\SystemInformation.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />

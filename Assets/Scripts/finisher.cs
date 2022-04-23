@@ -8,6 +8,7 @@ public class finisher : MonoBehaviour
     private Scene scene;
     private float health;
     public GameObject KeyRequiredDialog, KeyObject;
+    // public Stopwatch stopwatch;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class finisher : MonoBehaviour
     public static void ResetScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // stopwatch.StopwatchReset();
     }
 
     void OnTriggerEnter2D(Collider2D collision)

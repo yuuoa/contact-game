@@ -9,10 +9,14 @@ public class TilemapVisualizer : MonoBehaviour
     [SerializeField] private Tilemap floorTilemap, wallTilemap;
     [SerializeField] private TileBase floorTile, wallTop;
     ObjectPositionList objectPositionList;
+    public OPLStopwatch oplstopwatch;
+    public PCGStopwatch pcgstopwatch;
 
     public void PaintFloorTiles(IEnumerable<Vector2Int> floorPositions)
     {
+        pcgstopwatch.StopwatchStart();
         PaintTiles(floorPositions, floorTilemap, floorTile);
+        StartCoroutine(PCGStopwatchDelay());
     }
 
     private void PaintTiles(IEnumerable<Vector2Int> positions, Tilemap tilemap, TileBase tile)
@@ -21,13 +25,31 @@ public class TilemapVisualizer : MonoBehaviour
         {
             PaintSingleTile(tilemap, tile, position);
         }
+        Spawner();
+    }
 
+    private void Spawner()
+    {
         // objectPositionList.DeleteAll();
         //ObjectPositionList.CheckAllPosition();
+        oplstopwatch.StopwatchStart();
         ObjectPositionList.Instance.SpawnEnemy();
         ObjectPositionList.Instance.SpawnFinish();
         ObjectPositionList.Instance.SpawnPowerup();
         ObjectPositionList.Instance.SpawnKey();
+        StartCoroutine(OPLStopwatchDelay());
+    }
+
+    IEnumerator PCGStopwatchDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        pcgstopwatch.StopwatchStop();
+    }
+
+    IEnumerator OPLStopwatchDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        oplstopwatch.StopwatchStop();
     }
 
     internal void PaintSingleBasicWall(Vector2Int position)

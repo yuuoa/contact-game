@@ -741,6 +741,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1104c5cdbde73ea4f91c40239674ba44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &884650338 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 884650338, guid: a08036b01fc6af941ac318e5a407c0f9, type: 3}
+  m_PrefabInstance: {fileID: 304957740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b5eadecb157444ba935f4294c48f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &963760742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13908,6 +13919,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3171890752882826256, guid: 8f075120737faab438b5aa5a685fb566, type: 3}
   m_PrefabInstance: {fileID: 963760742}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1734521291 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1734521291, guid: a08036b01fc6af941ac318e5a407c0f9, type: 3}
+  m_PrefabInstance: {fileID: 304957740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 153eee4969aa1624cbf6f19bee727faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2072839849
 GameObject:
   m_ObjectHideFlags: 0
@@ -13941,6 +13963,8 @@ MonoBehaviour:
   wallTilemap: {fileID: 1634440938}
   floorTile: {fileID: 11400000, guid: 471853985ed4b5242ad12af71ace0cf6, type: 2}
   wallTop: {fileID: 11400000, guid: 22c9f328675568942a63b2770a6a63dc, type: 2}
+  oplstopwatch: {fileID: 884650338}
+  pcgstopwatch: {fileID: 1734521291}
 --- !u!4 &2072839851
 Transform:
   m_ObjectHideFlags: 0
