@@ -30,8 +30,6 @@ public class TilemapVisualizer : MonoBehaviour
 
     private void Spawner()
     {
-        // objectPositionList.DeleteAll();
-        //ObjectPositionList.CheckAllPosition();
         oplstopwatch.StopwatchStart();
         ObjectPositionList.Instance.SpawnEnemy();
         ObjectPositionList.Instance.SpawnFinish();
