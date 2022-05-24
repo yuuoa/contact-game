@@ -20,7 +20,8 @@ public class LevelManager : MonoBehaviour
         }
         else if (scene.name == "LevelMain")
         {
-            LevelNow = PlayerPrefs.GetInt("LevelNow");      
+            LevelNow = PlayerPrefs.GetInt("LevelNow");
+            Debug.Log(LevelNow);      
         }
 
     }

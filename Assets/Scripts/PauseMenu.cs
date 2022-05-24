@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     private float health;
+    private int NowLevel;
     public static bool isPause = false;
     public GameObject PauseMenuUI;
     void Start()
     {
+        NowLevel = GameObject.Find("LevelManager").GetComponent<LevelManager>().LevelNow;
         health = GameObject.Find("Player").GetComponent<HealthManager>().Health;
     }
     
@@ -43,6 +45,8 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPause = false;
+        NowLevel = 1;
+        PlayerPrefs.SetInt("LevelNow", NowLevel);
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -50,5 +54,6 @@ public class PauseMenu : MonoBehaviour
     {
         finisher.ResetScene();
         health = 100f;
+        PlayerPrefs.SetFloat("Health", health);
     }
 }
