@@ -57,7 +57,7 @@ public class BossMovement : MonoBehaviour
             if (attackSpeed <= canAttack)
             {
                 StartCoroutine(Timing());
-                other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                other.gameObject.GetComponent<HealthManager>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }
             else

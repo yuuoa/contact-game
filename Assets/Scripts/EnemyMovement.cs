@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public Scene scene;
     public Animator animator;
     public float speed, lineOfSite, canAttack;
     private Transform player;
     private float attackDamage = 10f;
+    private int ScoreAdder = 10;
     private float attackSpeed = 1f;
     public Rigidbody2D rb;
     [SerializeField] private GameObject Sword;
@@ -16,6 +19,7 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
 
     void Update()
@@ -55,7 +59,7 @@ public class EnemyMovement : MonoBehaviour
             if (attackSpeed <= canAttack)
             {
                 StartCoroutine(Timing());
-                other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                other.gameObject.GetComponent<HealthManager>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
             }
             else
@@ -74,6 +78,7 @@ public class EnemyMovement : MonoBehaviour
 
     public IEnumerator EnemyDeath()
     {
+        GameObject.Find("ScoreManager").GetComponent<ScoreManager>().UpdateScore(+ScoreAdder);
         speed = 0;
         Sword.SetActive(false);
         col.enabled = false;

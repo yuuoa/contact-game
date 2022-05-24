@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class finisher : MonoBehaviour
 {
+    public LevelManager levelManager;
     private Scene scene;
     private float health;
     public GameObject KeyRequiredDialog, KeyObject;
@@ -12,7 +13,7 @@ public class finisher : MonoBehaviour
 
     void Start()
     {
-        health = GameObject.Find("Player").GetComponent<PlayerHealth>().Health;
+        health = GameObject.Find("Player").GetComponent<HealthManager>().Health;
         KeyObject = GameObject.FindWithTag("Key");
     }
 
@@ -41,6 +42,10 @@ public class finisher : MonoBehaviour
                 else if (scene.name == "Level3")
                 {
                     SceneManager.LoadScene("BossLevel");
+                }
+                else if (scene.name == "LevelMain")
+                {
+                    levelManager.LevelFinish();
                 }
             }
             else if (KeyObject != null)

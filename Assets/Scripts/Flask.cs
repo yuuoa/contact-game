@@ -9,14 +9,14 @@ public class Flask : MonoBehaviour
 
     void Start()
     {
-        health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().Health;
+        health = GameObject.FindGameObjectWithTag("Player").GetComponent<HealthManager>().Health;
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(+HealAmount);
+            other.gameObject.GetComponent<HealthManager>().UpdateHealth(+HealAmount);
             PlayerPrefs.SetFloat("Health", health);
             Destroy(gameObject);
         }

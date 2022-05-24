@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class ButtonAction : MonoBehaviour
 {
 
+    int NowLevel;
     public void Play()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("LevelMain");
     }
 
     public void Quit()

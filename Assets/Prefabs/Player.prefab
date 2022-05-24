@@ -318,11 +318,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5635b25cc2fa2324689921f153c0a969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 3053793893500592385}
-  Health: 100
+  animator: {fileID: 0}
+  Health: 0
   PlayerMoveSpeed: 0
-  GameOverUI: {fileID: 0}
-  rb: {fileID: 4255780790824027321}
+  InfoHealth: {fileID: 0}
+  GameOverUI: {fileID: 308115729761433426, guid: 9a9785a59da138347ad80d0d234d9327, type: 3}
+  rb: {fileID: 0}
   Sword: {fileID: 3582429083394378048}
 --- !u!95 &3053793893500592385
 Animator:

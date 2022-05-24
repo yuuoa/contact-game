@@ -231,6 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72bac7e51e6744e96cce80c2519c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 5050787097294201551, guid: 74f4e78c7e1b3394aa24fdf2ea159857, type: 3}
   KeyRequiredDialog: {fileID: 8334572475575562788}
   KeyObject: {fileID: 1996056431250943296, guid: 7885658271a72eb4882fce1309d8c4bd, type: 3}
 --- !u!1 &5002759082195739615

@@ -10,7 +10,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject PauseMenuUI;
     void Start()
     {
-        health = GameObject.Find("Player").GetComponent<PlayerHealth>().Health;
+        health = GameObject.Find("Player").GetComponent<HealthManager>().Health;
     }
     
     void Update()
