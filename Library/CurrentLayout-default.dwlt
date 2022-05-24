@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 677
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 59
+  controlID: 129
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 82
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_MinSize: {x: 594, y: 271}
   m_MaxSize: {x: 18004, y: 10021}
   vertical: 0
-  controlID: 165
+  controlID: 130
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -454,9 +454,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 82450000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3ec0fffff4c8ffff24caffff86f4ffffa0f4ffff8cf6ffff8cf7ffff6af8ffff4af9ffff4afaffff6efaffff72faffff64fbffff
+      m_ExpandedIDs: 40caffff5acaffff3ccbffff36ccffff14cdfffff4cdffffd6cefffff2cefffff6ceffff48cfffff62cfffff44d0ffff3ed1ffff1cd2fffffcd2ffffded3fffffad3fffffed3ffff7ed4ffff98d4ffff7ad5ffff74d6ffff52d7ffff32d8ffff14d9ffff30d9ffff34d9ffff82d9ffff9cd9ffff88dbffff88dcffff66ddffff46deffff44dfffff68dfffff6cdfffffc8e2ffffe2e2ffffc4e3ffffbee4ffff9ce5ffff7ce6ffff5ee7ffff7ae7ffff7ee7ffff20e8ffff3ae8ffff1ce9ffff16eafffff4eaffffd4ebffffb6ecffffd2ecffffd6ecffff5cedffff76edffff62efffff62f0ffff40f1ffff20f2ffff1ef3ffff42f3ffff46f3ffff8af4ffffa4f4ffff90f6ffff90f7ffff6ef8ffff4ef9ffff4efaffff72faffff76faffff64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000827200003c45000044450000884400004e44000040450000604e00001c6e00005878000018bbffff42930000964d00008e53000004450000544500004a46000000000000b44a0000728fffff544e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     m_CachedPref: 0
     m_ControlHash: 0
     m_PrefName: 
-  m_LastInspectedObjectInstanceID: 17794
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:

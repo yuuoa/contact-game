@@ -23,6 +23,7 @@ public class HealthManager : MonoBehaviour
         if (NowLevel == 1)
         {
             Health = MaxHealth;
+            PlayerPrefs.SetFloat("Health", Health);
         }
         if (NowLevel > 1)
         {
@@ -75,7 +76,8 @@ public class HealthManager : MonoBehaviour
         if (collision.gameObject.tag == "Finish")
         {
             scene = SceneManager.GetActiveScene();
-            if (scene.name == "Level1" || scene.name == "Level2")
+            // if (scene.name == "Level1" || scene.name == "Level2")
+            if (scene.name == "LevelMain")
             {
                 PlayerPrefs.SetFloat("Health", Health);
             }
