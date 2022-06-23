@@ -718,6 +718,16 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Tayx.Graphy.Editor.csproj">
+      <Project>{00B6D16A-33C9-87BC-B0F1-A70AFB0F4002}</Project>
+      <Name>Tayx.Graphy.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.csproj">
+      <Project>{E7517A8F-AEC6-7FEF-35DB-0398E4FF9CFC}</Project>
+      <Name>Tayx.Graphy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

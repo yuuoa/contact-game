@@ -31,7 +31,8 @@ public class TilemapVisualizer : MonoBehaviour
     private void Spawner()
     {
         oplstopwatch.StopwatchStart();
-        ObjectPositionList.Instance.SpawnEnemy();
+        ObjectPositionList.Instance.SpawnSkull();
+        ObjectPositionList.Instance.SpawnSkeleton();
         ObjectPositionList.Instance.SpawnFinish();
         ObjectPositionList.Instance.SpawnPowerup();
         ObjectPositionList.Instance.SpawnKey();

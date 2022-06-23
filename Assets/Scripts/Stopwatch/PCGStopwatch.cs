@@ -10,7 +10,7 @@ public class PCGStopwatch : MonoBehaviour
     public float CurrentTime = 0;
     bool StopwatchActive = false;
 
-    void FixedUpdate()
+    void Update()
     {
         if (StopwatchActive == true)
         {
@@ -22,6 +22,7 @@ public class PCGStopwatch : MonoBehaviour
 
     public void StopwatchStart()
     {
+        CurrentTime = 0;
         StopwatchActive = true;
     }
 

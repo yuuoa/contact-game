@@ -17,12 +17,12 @@ public class SysDiagnostics : MonoBehaviour
     {
         Diag = GameObject.Find("Sys").GetComponent<Text>();
 
-    ramCounter = new PerformanceCounter("Memory", "Available MBytes");
-    cpuCounter = new PerformanceCounter();
+        ramCounter = new PerformanceCounter("Memory", "Available MBytes");
+        cpuCounter = new PerformanceCounter();
 
-    cpuCounter.CategoryName = "Processor";
-    cpuCounter.CounterName = "% Processor Time";
-    cpuCounter.InstanceName = "_Total";
+        cpuCounter.CategoryName = "Processor";
+        cpuCounter.CounterName = "% Processor Time";
+        cpuCounter.InstanceName = "_Total";
         // cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
         // ramCounter = new PerformanceCounter("Memory", "Available MBytes");
     }

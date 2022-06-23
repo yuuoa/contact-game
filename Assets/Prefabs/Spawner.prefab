@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d836bbda2b115b84485da5999b567ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
+  Skeleton: {fileID: 4754578789402823498, guid: bd924774773d4a0409b39f8208a8e9f6, type: 3}
+  Skull: {fileID: 4754578789402823498, guid: 1129ef42edb4da64e9c7cf5e8f2e20da, type: 3}
   Powerup: {fileID: 1705880783493699375, guid: 6c85750b10749b24c9cb8dcf63f841e0, type: 3}
   Finish: {fileID: 4754578789402823498, guid: a871d5143baf331469dacc0b63bd60be, type: 3}
   Key: {fileID: 1996056431250943296, guid: 7885658271a72eb4882fce1309d8c4bd, type: 3}

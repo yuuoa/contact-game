@@ -17,6 +17,7 @@ public class HealthManager : MonoBehaviour
     private int NowLevel;
     void Start()
     {
+        Time.timeScale = 1f;
         NowLevel = GameObject.Find("LevelManager").GetComponent<LevelManager>().LevelNow;
         PlayerMoveSpeed = GetComponent<PlayerMovement>().MoveSpeed;
         scene = SceneManager.GetActiveScene();

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectPositionList : MonoBehaviour
 {
-    public GameObject Enemy, Powerup, Finish, Key;
+    public GameObject Skeleton, Skull, Powerup, Finish, Key;
     private static ObjectPositionList _instance;
     private TilemapVisualizer tilemapVisualizer;
     private List<Vector3Int> tilePositionList = new List<Vector3Int>();
@@ -45,11 +45,19 @@ public class ObjectPositionList : MonoBehaviour
        Debug.Log("Last Pos = " + tilePositionList[tilePositionList.Count - 1]);
     }
 
-    public void SpawnEnemy()
+    public void SpawnSkeleton()
+    {   
+        for (int SpawnDistance = 12; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
+        {
+            Instantiate (Skeleton, tilePositionList[SpawnDistance], Quaternion.identity);
+        }
+    }
+
+    public void SpawnSkull()
     {   
         for (int SpawnDistance = 25; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 25)
         {
-            Instantiate (Enemy, tilePositionList[SpawnDistance], Quaternion.identity);
+            Instantiate (Skull, tilePositionList[SpawnDistance], Quaternion.identity);
         }
     }
 
