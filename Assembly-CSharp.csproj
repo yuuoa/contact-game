@@ -47,45 +47,30 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Dialogue\CheckpointFollower.cs" />
      <Compile Include="Assets\Scripts\PCG\ObjectPositionList.cs" />
-     <Compile Include="Assets\Scripts\BossMovement.cs" />
      <Compile Include="Assets\Scripts\Stopwatch\OPLStopwatch.cs" />
-     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-     <Compile Include="Assets\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\SysDiagnostics.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Manager\LevelManager.cs" />
      <Compile Include="Assets\Scripts\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\MusicManager.cs" />
      <Compile Include="Assets\Scripts\PCG\AbstractDungeonGenerator.cs" />
-     <Compile Include="Assets\Scripts\ButtonAction.cs" />
+     <Compile Include="Assets\Scripts\Manager\SFXManager.cs" />
      <Compile Include="Assets\Scripts\Stopwatch\PCGStopwatch.cs" />
-     <Compile Include="Assets\Scripts\PCG\DemoTilemapVisualizer.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\PCG\CorridorFirstDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Flask.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
-     <Compile Include="Assets\Scripts\Sword.cs" />
-     <Compile Include="Assets\Scripts\KeyStatus.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueCheckpoint.cs" />
+     <Compile Include="Assets\Scripts\PlayerSword.cs" />
      <Compile Include="Assets\Scripts\PCG\TilemapVisualizer.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\PCG\ProceduralGenerationAlgorithms.cs" />
      <Compile Include="Assets\Scripts\PCG\WallGenerator.cs" />
-     <Compile Include="Assets\Scripts\SystemInformation.cs" />
-     <Compile Include="Assets\GetSize.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PCG\SimpleRandomWalkDungeonGenerator.cs" />
-     <Compile Include="Assets\Scripts\PlayerPrologue.cs" />
-     <Compile Include="Assets\Scripts\Data\SimpleRandomWalkSO.cs" />
-     <Compile Include="Assets\Scripts\finisher.cs" />
-     <None Include="Assets\Graphy - Ultimate Stats Monitor\Changelog.txt" />
-     <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
-     <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
+     <Compile Include="Assets\Scripts\PCG\Data\SimpleRandomWalkSO.cs" />
+     <Compile Include="Assets\Scripts\DungeonLadder.cs" />
      <None Include="Assets\Sprites\Dungeon\character and tileset\Licence.txt" />
-     <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
-     <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

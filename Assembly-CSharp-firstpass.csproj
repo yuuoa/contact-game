@@ -47,17 +47,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Base\Joystick.cs" />
-     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
-     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-     <Compile Include="Assets\Plugins\Joystick Pack\Examples\JoystickSetterExample.cs" />
-     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-     <Compile Include="Assets\Plugins\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+     <Compile Include="Assets\Plugins\Retro Sound Effects\Demo\Demo.cs" />
+     <None Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Changelog.txt" />
      <None Include="Assets\Plugins\SimplePixelUI\fonts\Font2\license.txt" />
+     <None Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
      <None Include="Assets\Plugins\Pixel Font - Tripfive\_README.txt" />
+     <None Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
      <None Include="Assets\Plugins\SimplePixelUI\fonts\Font1\license.txt" />
+     <None Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
      <None Include="Assets\Plugins\SimplePixelUI\fonts\Font1\readme.txt" />
+     <None Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
      <None Include="Assets\Plugins\SimplePixelUI\fonts\Font2\readme.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

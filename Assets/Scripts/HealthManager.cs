@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
+    public AudioSource PlayerDeathSound;
     public Animator animator;
     private Scene scene;
     public float Health, PlayerMoveSpeed;
@@ -17,9 +19,10 @@ public class HealthManager : MonoBehaviour
     private int NowLevel;
     void Start()
     {
+        PlayerDeathSound = gameObject.AddComponent<AudioSource>();
         Time.timeScale = 1f;
         NowLevel = GameObject.Find("LevelManager").GetComponent<LevelManager>().LevelNow;
-        PlayerMoveSpeed = GetComponent<PlayerMovement>().MoveSpeed;
+        PlayerMoveSpeed = GetComponent<Player>().MoveSpeed;
         scene = SceneManager.GetActiveScene();
         if (NowLevel == 1)
         {
@@ -30,14 +33,6 @@ public class HealthManager : MonoBehaviour
         {
             Health = PlayerPrefs.GetFloat("Health");
         }
-        // if (scene.name == "Level1")
-        // {
-        //     Health = MaxHealth;
-        // }
-        // else if (scene.name == "Level2" || scene.name == "Level3")
-        // {
-        //     Health = PlayerPrefs.GetFloat("Health");
-        // }
         InfoHealth = GameObject.Find("UIHealth").GetComponent<Text>();
     }
 
@@ -64,6 +59,7 @@ public class HealthManager : MonoBehaviour
 
     public IEnumerator PlayerDeath()
     {
+        PlayerDeathSound.Play();
         PlayerMoveSpeed = 0;
         Sword.SetActive(false);
         rb.constraints = RigidbodyConstraints2D.FreezeAll;

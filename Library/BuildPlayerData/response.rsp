@@ -10,6 +10,7 @@
 -a="D:\Projekt\unity\Contact\Library\PlayerScriptAssemblies\Cinemachine.dll"
 -a="D:\Projekt\unity\Contact\Library\PlayerScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll"
 -a="D:\Projekt\unity\Contact\Library\PlayerScriptAssemblies\Unity.2D.Animation.Runtime.dll"
+-a="D:\Projekt\unity\Contact\Library\PlayerScriptAssemblies\Tayx.Graphy.dll"
 -a="D:\Projekt\unity\Contact\Library\PlayerScriptAssemblies\Unity.2D.Common.Runtime.dll"
 -a="D:\Projekt\unity\Contact\Library\PlayerScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll"
 -a="D:\Projekt\unity\Contact\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll"

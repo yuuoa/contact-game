@@ -7,26 +7,26 @@ using System;
 public class OPLStopwatch : MonoBehaviour
 {
     public Text OPLStopwatchText;
-    public float CurrentTime = 0;
-    bool StopwatchActive = false;
+    public float CurrentTime1 = 0;
+    bool StopwatchActive1 = false;
 
     void Update()
     {
-        if (StopwatchActive == true)
+        if (StopwatchActive1 == true)
         {
-            CurrentTime = CurrentTime + Time.deltaTime;
+            CurrentTime1 = CurrentTime1 + Time.deltaTime;
         }
-        TimeSpan time = TimeSpan.FromSeconds(CurrentTime);
-        OPLStopwatchText.text = ("OPL Time: " + time.ToString(@"mm\:ss\:ffffff"));
+        TimeSpan time1 = TimeSpan.FromSeconds(CurrentTime1);
+        OPLStopwatchText.text = ("OPL Time: " + time1.ToString(@"mm\:ss\:ffffff"));
     }
 
-    public void StopwatchStart()
+    public void StopwatchStart1()
     {
-        StopwatchActive = true;
+        StopwatchActive1 = true;
     }
 
-    public void StopwatchStop()
+    public void StopwatchStop1()
     {
-        StopwatchActive = false;
+        StopwatchActive1 = false;
     }
 }

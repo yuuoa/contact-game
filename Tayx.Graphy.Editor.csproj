@@ -47,11 +47,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Editor\GraphyManagerEditor.cs" />
-     <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Editor\GraphyEditorStyle.cs" />
-     <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Editor\GraphyDebuggerEditor.cs" />
-     <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Editor\GraphyMenuItem.cs" />
-     <None Include="Assets\Graphy - Ultimate Stats Monitor\Editor\Tayx.Graphy.Editor.asmdef" />
+     <Compile Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Editor\GraphyManagerEditor.cs" />
+     <Compile Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Editor\GraphyEditorStyle.cs" />
+     <Compile Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Editor\GraphyDebuggerEditor.cs" />
+     <Compile Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Editor\GraphyMenuItem.cs" />
+     <None Include="Assets\Plugins\Graphy - Ultimate Stats Monitor\Editor\Tayx.Graphy.Editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

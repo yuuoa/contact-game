@@ -47,7 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\RandomDungeonGeneratorEditor.cs" />
+     <Compile Include="Assets\Scripts\PCG\Editor\RandomDungeonGeneratorEditor.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -742,11 +742,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{0D6487E0-E2B0-850B-9AAD-E8B8E073BCC5}</Project>
       <Name>Assembly-CSharp</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{CA246536-3533-902D-23BE-D2BCDCB68DC8}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Tayx.Graphy.Editor.csproj">

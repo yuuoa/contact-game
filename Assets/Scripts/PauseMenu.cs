@@ -42,17 +42,18 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        PauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        isPause = false;
         NowLevel = 1;
         PlayerPrefs.SetInt("LevelNow", NowLevel);
+        PauseMenuUI.SetActive(false);
+        isPause = false;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+        Debug.Log(NowLevel);
     }
 
     public void Retry()
     {
-        finisher.ResetScene();
+        DungeonLadder.ResetScene();
         health = 100f;
         PlayerPrefs.SetFloat("Health", health);
     }
