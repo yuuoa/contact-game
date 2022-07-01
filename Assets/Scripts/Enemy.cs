@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public AudioSource EnemyDeathSound;
     public Scene scene;
     public Animator animator;
     public float speed, lineOfSite, canAttack;
@@ -20,9 +18,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        EnemyDeathSound = gameObject.AddComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-
     }
 
     void Update()
@@ -74,6 +70,7 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator Timing()
     {
+        FindObjectOfType<SFXManager>().Play("SkeletonSword");
         animator.SetBool("EnemyAttack", true);
         yield return new WaitForSeconds(0.2f);
         animator.SetBool("EnemyAttack", false);
@@ -81,7 +78,7 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator EnemyDeath()
     {
-        EnemyDeathSound.Play();
+        FindObjectOfType<SFXManager>().Play("SkeletonDeath");
         GameObject.Find("ScoreManager").GetComponent<ScoreManager>().UpdateScore(+ScoreAdder);
         speed = 0;
         Sword.SetActive(false);

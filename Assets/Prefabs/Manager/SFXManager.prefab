@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2042171137425110511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2042171137425110510}
+  - component: {fileID: 2042171136416989621}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: SFX
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2042171137425110510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042171137425110511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9609933, y: -1.3372567, z: -75.3669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2042171136416989621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042171137425110511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31dd50e3a698b3c4a8bc91eadfffbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: b5e9bdd3eb0f347408eb081db5a31112, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerSword
+    clip: {fileID: 8300000, guid: 6bd4823440eab7e4391f19e57d2d7dfb, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonDeath
+    clip: {fileID: 8300000, guid: 28596d333fba1cd46a9a997ddae0b044, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonSword
+    clip: {fileID: 8300000, guid: 6bd4823440eab7e4391f19e57d2d7dfb, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkullDeath
+    clip: {fileID: 8300000, guid: 32dcff4de7e0b2643aad9a0247880525, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkullFlame
+    clip: {fileID: 8300000, guid: cc591548c67d2be4cace8559706e9e4e, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Finish
+    clip: {fileID: 8300000, guid: fc68840ec0d327945a5191101ae56227, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Flask
+    clip: {fileID: 8300000, guid: ddf0aefa61c268541b81cea5b9c72027, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: 52633201299171d4990bacf1afbf5e85, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 565621ff11ffdfa4eb7d087fafee19ca, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  isActive: 1

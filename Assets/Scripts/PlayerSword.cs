@@ -1,19 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 
 public class PlayerSword : MonoBehaviour
 {
     public Animator EnemyAnimator, animator;
     public PolygonCollider2D col;
     private Transform player;
-    public AudioSource SwordSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        SwordSound = gameObject.AddComponent<AudioSource>();
         col.enabled = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -29,7 +26,7 @@ public class PlayerSword : MonoBehaviour
 
     public IEnumerator Timing()
     {
-        SwordSound.Play();
+        FindObjectOfType<SFXManager>().Play("PlayerSword");
         animator.SetBool("PlayerAttack", true);
         col.enabled = true;
         yield return new WaitForSeconds(0.2f);

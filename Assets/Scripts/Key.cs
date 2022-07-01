@@ -31,6 +31,7 @@ public class Key : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            FindObjectOfType<SFXManager>().Play("Key");
             Destroy(gameObject);
         }
     }

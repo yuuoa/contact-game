@@ -13,6 +13,8 @@ TagManager:
   - Pass
   - Check
   - Dialogue
+  - SFX
+  - BGM
   layers:
   - Default
   - TransparentFX

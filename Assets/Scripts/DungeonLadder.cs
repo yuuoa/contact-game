@@ -18,7 +18,7 @@ public class DungeonLadder : MonoBehaviour
 
         public static void ResetScene()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("LevelMain");
         }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -27,6 +27,7 @@ public class DungeonLadder : MonoBehaviour
         {
             if (KeyObject == null)
             {
+                FindObjectOfType<SFXManager>().Play("Finish");
                 KeyRequiredDialog.SetActive(false);
                 levelManager.LevelFinish();
             }

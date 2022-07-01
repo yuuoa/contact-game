@@ -15,7 +15,7 @@ public class PauseMenu : MonoBehaviour
         health = GameObject.Find("Player").GetComponent<HealthManager>().Health;
     }
     
-    void Update()
+    public void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
@@ -26,7 +26,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -53,6 +53,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Retry()
     {
+        NowLevel = 1;
+        PlayerPrefs.SetInt("LevelNow", NowLevel);
         DungeonLadder.ResetScene();
         health = 100f;
         PlayerPrefs.SetFloat("Health", health);

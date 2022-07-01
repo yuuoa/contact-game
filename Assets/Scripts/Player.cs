@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
 
     public IEnumerator PlayerDeathScene()
     {
+        FindObjectOfType<SFXManager>().Play("PlayerDeath");
         MoveSpeed = 0;
         Sword.SetActive(false);
         col.enabled = false;

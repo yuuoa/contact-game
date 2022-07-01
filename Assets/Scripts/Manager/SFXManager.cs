@@ -1,18 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Audio;
+using System;
 using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public SoundManager[] sounds;
+    public static SFXManager instance;
+    public bool isActive = true;
+
+    public void ActiveStatus()
     {
-        
+        if (isActive == true)
+            this.gameObject.SetActive(true);
+        else
+            this.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
-        
+        if(instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject);
+
+        foreach (SoundManager s in sounds)
+        {
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
+            s.source.volume = s.volume;
+        }
+    }
+
+    public void Play (string name)
+    {
+        SoundManager s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Play();
     }
 }

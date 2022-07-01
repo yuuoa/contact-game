@@ -16,6 +16,7 @@ public class Flask : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            FindObjectOfType<SFXManager>().Play("Flask");
             other.gameObject.GetComponent<HealthManager>().UpdateHealth(+HealAmount);
             PlayerPrefs.SetFloat("Health", health);
             Destroy(gameObject);
