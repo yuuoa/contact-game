@@ -51,12 +51,13 @@
      <Compile Include="Assets\Scripts\Stopwatch\OPLStopwatch.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Manager\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\HealthManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MusicManager.cs" />
      <Compile Include="Assets\Scripts\PCG\AbstractDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Manager\SFXManager.cs" />
      <Compile Include="Assets\Scripts\Stopwatch\PCGStopwatch.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Manager\BGMManager.cs" />
      <Compile Include="Assets\Scripts\PCG\CorridorFirstDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Flask.cs" />
      <Compile Include="Assets\Scripts\PlayerSword.cs" />
@@ -69,6 +70,7 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PCG\SimpleRandomWalkDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\PCG\Data\SimpleRandomWalkSO.cs" />
+     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
      <Compile Include="Assets\Scripts\DungeonLadder.cs" />
      <None Include="Assets\Sprites\Dungeon\character and tileset\Licence.txt" />
  <Reference Include="UnityEngine">
@@ -730,11 +732,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B154B9D3-B153-97F7-6CD2-591574ADCBC8}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="Tayx.Graphy.Editor.csproj">
       <Project>{00B6D16A-33C9-87BC-B0F1-A70AFB0F4002}</Project>
       <Name>Tayx.Graphy.Editor</Name>

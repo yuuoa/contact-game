@@ -9,6 +9,7 @@ public class SoundManager
     [Range(0f, 1f)]
     public float volume;
     public bool loop;
+    public bool PlayOnAwake;
 
     [HideInInspector]
     public AudioSource source;

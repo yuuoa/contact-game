@@ -10,8 +10,6 @@ public class LevelManager : MonoBehaviour
     
     private Scene scene;
     public int LevelNow;
-    public GameObject SFXMan;
-    public GameObject BGMMan;
 
     void Awake()
     {
@@ -33,21 +31,15 @@ public class LevelManager : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         if (scene.name == "MainMenu")
         {
-            if (SFXMan != null)
-            {
-                FindObjectOfType<BGMManager>().Stop("LevelMain");
-                FindObjectOfType<BGMManager>().Play("MainMenu");
-            }
+            FindObjectOfType<BGMManager>().Stop("LevelMain");
+            FindObjectOfType<BGMManager>().Play("MainMenu");
             LevelNow = 1;
             PlayerPrefs.SetInt("LevelNow", LevelNow);
         }
         else if (scene.name == "LevelMain")
         {
-            if (SFXMan != null)
-            {
-                FindObjectOfType<BGMManager>().Stop("MainMenu");
-                FindObjectOfType<BGMManager>().Play("LevelMain");
-            }
+            FindObjectOfType<BGMManager>().Stop("MainMenu");
+            FindObjectOfType<BGMManager>().Play("LevelMain");
         }
     }
 

@@ -1,19 +1,69 @@
 using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SFXManager : MonoBehaviour
 {
+    [SerializeField] Image OnIcon;
+    [SerializeField] Image OffIcon;
     public SoundManager[] sounds;
     public static SFXManager instance;
-    public bool isActive = true;
+    public bool muted;
 
-    public void ActiveStatus()
+    void Start()
     {
-        if (isActive == true)
-            this.gameObject.SetActive(true);
+        if(!PlayerPrefs.HasKey("muted"))
+        {
+            PlayerPrefs.SetInt("muted", 0);
+            Load();
+        }
         else
+        {
+            Load();
+        }
+        ButtonIcon();
+        AudioListener.pause = muted;
+    }
+
+    public void BGMActiveButton()
+    {
+        if (muted == true)
+        {
+            muted = false;
+            this.gameObject.SetActive(true);
+        }
+        else
+        {
+            muted = true;
             this.gameObject.SetActive(false);
+        }
+        Save();
+        ButtonIcon();
+    }
+
+    public void ButtonIcon()
+    {
+        if (muted == true)
+        {
+            OnIcon.enabled = false;
+            OffIcon.enabled = true;
+        }
+        else
+        {
+            OnIcon.enabled = true;
+            OffIcon.enabled = false;
+        }
+    }
+
+    private void Load()
+    {
+        muted = PlayerPrefs.GetInt("muted") == 1;
+    }
+
+    private void Save()
+    {
+        PlayerPrefs.SetInt("muted", muted ? 1 : 0);
     }
 
     void Awake()
@@ -33,6 +83,7 @@ public class SFXManager : MonoBehaviour
         foreach (SoundManager s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
+            s.source.playOnAwake = s.PlayOnAwake;
             s.source.clip = s.clip;
             s.source.volume = s.volume;
         }
