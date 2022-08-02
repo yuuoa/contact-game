@@ -11,18 +11,16 @@ public class Key : MonoBehaviour
         KeyObject = GameObject.FindWithTag("Key");
         if(KeyObject == null)
         {
-            if(IsNotAcquired != null && IsAcquired == null)
-            {
-                IsNotAcquired.SetActive(false);
-                IsAcquired.SetActive(true);
-            }
+            IsNotAcquired.SetActive(false);
+            IsAcquired.SetActive(true);
         }
         else if(KeyObject != null)
         {
-            if(IsNotAcquired == null && IsAcquired != null)
+            if(IsNotAcquired != null)
             {
-                IsNotAcquired.SetActive(true); 
-                IsAcquired.SetActive(false);
+
+            IsNotAcquired.SetActive(true); 
+            IsAcquired.SetActive(false);
             }
         }
     }

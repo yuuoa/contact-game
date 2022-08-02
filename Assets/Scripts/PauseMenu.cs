@@ -42,13 +42,13 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        NowLevel = 1;
+        PlayerPrefs.DeleteKey("LevelNow");
+        NowLevel = 0;
         PlayerPrefs.SetInt("LevelNow", NowLevel);
         PauseMenuUI.SetActive(false);
         isPause = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
-        Debug.Log(NowLevel);
     }
 
     public void Retry()

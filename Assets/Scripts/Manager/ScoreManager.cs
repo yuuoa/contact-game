@@ -24,12 +24,6 @@ public class ScoreManager : MonoBehaviour
         {
             Score = PlayerPrefs.GetInt("Score");
         }
-
-        if (scene.name == "MainMenu")
-        {
-            HighScore = PlayerPrefs.GetInt("HighScore");
-            ScoreText.text = "High Score : " + HighScore.ToString();
-        }
     }
 
     void Update()
@@ -38,6 +32,11 @@ public class ScoreManager : MonoBehaviour
         {   
             ScoreText.text = "Score : " + Score.ToString();        
             PlayerPrefs.SetInt("Score", Score);
+        }
+        if (scene.name == "MainMenu")
+        {
+            HighScore = PlayerPrefs.GetInt("HighScore");
+            ScoreText.text = "High Score : " + HighScore.ToString();
         }
     }
     
@@ -51,5 +50,10 @@ public class ScoreManager : MonoBehaviour
             HighScore = Score;
             PlayerPrefs.SetInt("HighScore", HighScore);
         }
+    }
+
+    public void DeleteScore()
+    {
+        PlayerPrefs.DeleteKey("HighScore");
     }
 }

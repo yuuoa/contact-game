@@ -36,6 +36,10 @@ public class TilemapVisualizer : MonoBehaviour
         ObjectPositionList.Instance.SpawnFinish();
         ObjectPositionList.Instance.SpawnPowerup();
         ObjectPositionList.Instance.SpawnKey();
+        ObjectPositionList.Instance.SpawnBones();
+        ObjectPositionList.Instance.SpawnBones2();
+        ObjectPositionList.Instance.SpawnStones();
+        ObjectPositionList.Instance.SpawnTorch();
         StartCoroutine(OPLStopwatchDelay());
     }
 

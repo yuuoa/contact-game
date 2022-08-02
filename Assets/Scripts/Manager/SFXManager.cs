@@ -26,7 +26,7 @@ public class SFXManager : MonoBehaviour
         AudioListener.pause = muted;
     }
 
-    public void BGMActiveButton()
+    public void SFXActiveButton()
     {
         if (muted == true)
         {

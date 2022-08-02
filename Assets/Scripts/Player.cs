@@ -13,6 +13,13 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject Sword;
     [SerializeField] PolygonCollider2D col;
     
+    private int LevelAdder = 1;
+    
+    void Awake()
+    {
+        GameObject.Find("LevelManager").GetComponent<LevelManager>().UpdateLevel(+LevelAdder);
+    }
+
     void Update()
     {
         MoveInput();

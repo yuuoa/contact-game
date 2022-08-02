@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
 
     public static LevelManager instance;
-    
+    public Text LevelText;
     private Scene scene;
     public int LevelNow;
+    public int LevelAdder = -1000000;
 
     void Awake()
     {
@@ -22,7 +24,6 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         DontDestroyOnLoad(gameObject);
     }
 
@@ -31,13 +32,15 @@ public class LevelManager : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         if (scene.name == "MainMenu")
         {
+            PlayerPrefs.DeleteKey("LevelNow");
+            LevelNow = 0;
+            PlayerPrefs.SetInt("LevelNow", LevelNow);
             FindObjectOfType<BGMManager>().Stop("LevelMain");
             FindObjectOfType<BGMManager>().Play("MainMenu");
-            LevelNow = 1;
-            PlayerPrefs.SetInt("LevelNow", LevelNow);
         }
         else if (scene.name == "LevelMain")
         {
+            PlayerPrefs.GetInt("LevelNow");
             FindObjectOfType<BGMManager>().Stop("MainMenu");
             FindObjectOfType<BGMManager>().Play("LevelMain");
         }
@@ -45,14 +48,23 @@ public class LevelManager : MonoBehaviour
 
     public void LevelFinish()
     {
-        LevelNow = LevelNow + 1;
-        PlayerPrefs.SetInt("LevelNow", LevelNow);
+        // UpdateLevel(+LevelAdder);
         scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene("LevelMain");
     }
 
+    public void UpdateLevel(int mod)
+    {
+        LevelNow += mod;
+        PlayerPrefs.SetInt("LevelNow", LevelNow);
+        if (LevelNow < 0)
+        {
+            LevelNow = 0;
+        }
+    }
+
     private void Update()
     {
-        Debug.Log(LevelNow);
+        LevelText.text = "Level " + LevelNow.ToString();
     }
 }

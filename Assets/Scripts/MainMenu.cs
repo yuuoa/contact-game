@@ -8,8 +8,15 @@ public class MainMenu : MonoBehaviour
     public static bool isSettings = false;
     public GameObject SettingsUI;
     public GameObject MainMenuUI;
+    public int LevelAdder = -1000000;
+
+    void Awake()
+    {
+        GameObject.Find("LevelManager").GetComponent<LevelManager>().UpdateLevel(+LevelAdder);
+    }
     void Start()
     {
+        PlayerPrefs.DeleteKey("LevelNow");
         SettingsUI.SetActive(false);
         MainMenuUI.SetActive(true);
     }

@@ -52,7 +52,6 @@
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Manager\LevelManager.cs" />
      <Compile Include="Assets\Scripts\Manager\HealthManager.cs" />
-     <Compile Include="Assets\Scripts\Manager\MusicManager.cs" />
      <Compile Include="Assets\Scripts\PCG\AbstractDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Manager\SFXManager.cs" />
      <Compile Include="Assets\Scripts\Stopwatch\PCGStopwatch.cs" />

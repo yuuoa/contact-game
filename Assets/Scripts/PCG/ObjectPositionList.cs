@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectPositionList : MonoBehaviour
 {
     public GameObject Skeleton, Skull, Powerup, Finish, Key;
+    public GameObject Bones, Bones2, Stones, Torch;
     private static ObjectPositionList _instance;
     private TilemapVisualizer tilemapVisualizer;
     private List<Vector3Int> tilePositionList = new List<Vector3Int>();
@@ -63,7 +64,7 @@ public class ObjectPositionList : MonoBehaviour
 
     public void SpawnPowerup()
     {
-        for (int SpawnDistance = 2000; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 200)
+        for (int SpawnDistance = 100; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 100)
         {
             Instantiate (Powerup, tilePositionList[SpawnDistance], Quaternion.identity);
         }
@@ -77,5 +78,37 @@ public class ObjectPositionList : MonoBehaviour
     public void SpawnFinish()
     {
         Instantiate (Finish, tilePositionList[Mathf.Abs(tilePositionList.Count) - 1], Quaternion.identity);
+    }
+
+    public void SpawnBones()
+    {
+        for (int SpawnDistance = 15; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 100)
+        {
+            Instantiate (Bones, tilePositionList[SpawnDistance], Quaternion.identity);
+        }
+    }
+
+    public void SpawnBones2()
+    {
+        for (int SpawnDistance = 25; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 100)
+        {
+            Instantiate (Bones2, tilePositionList[SpawnDistance], Quaternion.identity);
+        }
+    }
+
+    public void SpawnStones()
+    {
+        for (int SpawnDistance = 45; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 100)
+        {
+            Instantiate (Stones, tilePositionList[SpawnDistance], Quaternion.identity);
+        }
+    }
+
+    public void SpawnTorch()
+    {
+        for (int SpawnDistance = 85; SpawnDistance < Mathf.Abs(tilePositionList.Count); SpawnDistance+= 50)
+        {
+            Instantiate (Torch, tilePositionList[SpawnDistance], Quaternion.identity);
+        }
     }
 }

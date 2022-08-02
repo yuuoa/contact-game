@@ -351,7 +351,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5190891024974560849}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: BGMManager, Assembly-CSharp
+        m_MethodName: BGMActiveButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4700058856938446629
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +486,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7345785144627595798}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SFXManager, Assembly-CSharp
+        m_MethodName: SFXActiveButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4882811537406207974
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,8 +833,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ButtonAction, Assembly-CSharp
-        m_MethodName: Quit
+        m_TargetAssemblyTypeName: ScoreManager, Assembly-CSharp
+        m_MethodName: DeleteScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1899,7 +1923,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &4882811539112035479
 MonoBehaviour:
@@ -1955,6 +1979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SettingsUI: {fileID: 4882811538822585749}
   MainMenuUI: {fileID: 4882811538499789222}
+  LevelAdder: -1000000
 --- !u!1 &4882811539112936265
 GameObject:
   m_ObjectHideFlags: 0
