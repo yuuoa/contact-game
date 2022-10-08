@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     public static bool isSettings = false;
     public GameObject SettingsUI;
     public GameObject MainMenuUI;
+    private Scene scene;
     public int LevelAdder = -1000000;
 
     void Awake()
@@ -22,7 +23,8 @@ public class MainMenu : MonoBehaviour
     }
     public void Play()
     {
-        SceneManager.LoadScene("LevelMain");
+        int index = Random.Range(1, 3);
+        SceneManager.LoadScene(index);
     }
 
     public void Settings()

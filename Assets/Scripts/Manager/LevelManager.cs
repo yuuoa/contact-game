@@ -11,7 +11,6 @@ public class LevelManager : MonoBehaviour
     public Text LevelText;
     private Scene scene;
     public int LevelNow;
-    public int LevelAdder = -1000000;
 
     void Awake()
     {
@@ -38,7 +37,7 @@ public class LevelManager : MonoBehaviour
             FindObjectOfType<BGMManager>().Stop("LevelMain");
             FindObjectOfType<BGMManager>().Play("MainMenu");
         }
-        else if (scene.name == "LevelMain")
+        else if (scene.name == "LevelMain1" || scene.name == "LevelMain2" || scene.name == "LevelMain3")
         {
             PlayerPrefs.GetInt("LevelNow");
             FindObjectOfType<BGMManager>().Stop("MainMenu");
@@ -48,9 +47,8 @@ public class LevelManager : MonoBehaviour
 
     public void LevelFinish()
     {
-        // UpdateLevel(+LevelAdder);
-        scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene("LevelMain");
+        int index = Random.Range(1, 3);
+        SceneManager.LoadScene(index);
     }
 
     public void UpdateLevel(int mod)
@@ -66,5 +64,11 @@ public class LevelManager : MonoBehaviour
     private void Update()
     {
         LevelText.text = "Level " + LevelNow.ToString();
+    }
+
+    public static void ResetScene()
+    {
+        int index = Random.Range(1, 3);
+        SceneManager.LoadScene(index);
     }
 }

@@ -16,11 +16,6 @@ public class DungeonLadder : MonoBehaviour
         KeyObject = GameObject.FindWithTag("Key");
     }
 
-        public static void ResetScene()
-        {
-            SceneManager.LoadScene("LevelMain");
-        }
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

@@ -28,7 +28,7 @@ public class ScoreManager : MonoBehaviour
 
     void Update()
     {
-        if (scene.name == "LevelMain")
+        if (scene.name == "LevelMain1" || scene.name == "LevelMain2" || scene.name == "LevelMain3")
         {   
             ScoreText.text = "Score : " + Score.ToString();        
             PlayerPrefs.SetInt("Score", Score);

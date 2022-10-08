@@ -70,7 +70,7 @@ public class HealthManager : MonoBehaviour
         if (collision.gameObject.tag == "Finish")
         {
             scene = SceneManager.GetActiveScene();
-            if (scene.name == "LevelMain")
+            if (scene.name == "LevelMain1" || scene.name == "LevelMain2" || scene.name == "LevelMain3")
             {
                 PlayerPrefs.SetFloat("Health", Health);
             }

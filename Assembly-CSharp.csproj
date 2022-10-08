@@ -57,7 +57,6 @@
      <Compile Include="Assets\Scripts\Stopwatch\PCGStopwatch.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Manager\BGMManager.cs" />
-     <Compile Include="Assets\Scripts\PCG\CorridorFirstDungeonGenerator.cs" />
      <Compile Include="Assets\Scripts\Flask.cs" />
      <Compile Include="Assets\Scripts\PlayerSword.cs" />
      <Compile Include="Assets\Scripts\PCG\TilemapVisualizer.cs" />

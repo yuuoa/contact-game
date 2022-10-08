@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
     {
         NowLevel = 1;
         PlayerPrefs.SetInt("LevelNow", NowLevel);
-        DungeonLadder.ResetScene();
+        LevelManager.ResetScene();
         health = 100f;
         PlayerPrefs.SetFloat("Health", health);
     }
